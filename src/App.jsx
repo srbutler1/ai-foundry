@@ -203,13 +203,13 @@ function App() {
               Join the Community
             </h2>
             <p className="text-zinc-300 mb-8 backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              Whether you're from Walton College, Engineering, or Data Science, there's a place for you at the 
+              Whether you're from Walton College, Engineering, Data Science, or any other discipline there's a place for you at the 
               Arkansas AI Foundry. Join us in building the future of AI while advancing your career.
             </p>
             <div className="flex justify-center space-x-4">
               <Button>
                 <MessageCircle className="mr-2 h-4 w-4" />
-                Join Discord
+                Join Our Groupme! 
               </Button>
               <Button variant="outline">
                 Upcoming Events
@@ -224,9 +224,9 @@ function App() {
             <div className="text-center">
               <p className="text-zinc-400">© 2025 Arkansas AI Foundry</p>
               <div className="mt-4 space-x-4">
-                <a href="#" className="text-red-400 hover:text-red-300">Discord</a>
+                <a href="#" className="text-red-400 hover:text-red-300">Groupme</a>
                 <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                <a href="#" className="text-red-400 hover:text-red-300">Instagram</a>
+                <a href="#" className="text-red-400 hover:text-red-300">HogSync</a>
               </div>
             </div>
           </div>
