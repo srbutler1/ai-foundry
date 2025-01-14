@@ -1,5 +1,7 @@
 import { Brain, Users, BookOpen, MessageCircle, ChevronRight, Trophy, Briefcase, Code } from 'lucide-react'
 import { Button } from './components/ui/button'
+import foundryLogo from './assets/foundry-logo.png'
+
 
 function App() {
   return (
@@ -15,8 +17,16 @@ function App() {
         <div className="relative overflow-hidden">
           <div className="container mx-auto px-4 py-24">
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-48 h-48 mb-8">
+              <div className="relative mb-8">
                 <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
+                <div className="relative mb-8">
+                <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
+                <img 
+                  src={foundryLogo} 
+                  alt="Arkansas AI Foundry Logo" 
+                  className="relative z-10 w-48 h-48 object-contain"
+                />
+              </div>
               </div>
               <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
                 Arkansas AI Foundry
@@ -99,10 +109,6 @@ function App() {
                 <div className="text-zinc-300">
                   <p className="font-semibold">[President Name]</p>
                   <p className="text-sm text-zinc-400">President</p>
-                </div>
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Vice President Name]</p>
-                  <p className="text-sm text-zinc-400">Vice President</p>
                 </div>
                 <div className="text-zinc-300">
                   <p className="font-semibold">[Secretary Name]</p>
