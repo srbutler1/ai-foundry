@@ -28,7 +28,7 @@ function App() {
                 />
               </div>
               </div>
-              <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
+              <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-400 via-red-600 to-red-900 drop-shadow-[0_0_15px_rgba(220,38,38,0.4)]">
                 Arkansas AI Foundry
               </h1>
               <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
@@ -49,7 +49,7 @@ function App() {
               Where Business Meets AI Innovation
             </h2>
             <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              The Arkansas AI Foundry brings together students from Walton College, Engineering, and Data Science 
+              The Arkansas AI Foundry brings together students from Walton College and other disciplines
               to explore the frontiers of artificial intelligence. Through hands-on projects, industry connections, 
               and collaborative learning, we're preparing the next generation of AI leaders.
             </p>
