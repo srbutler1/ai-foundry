@@ -207,7 +207,9 @@ function App() {
               Arkansas AI Foundry. Join us in building the future of AI while advancing your career.
             </p>
             <div className="flex justify-center space-x-4">
-              <Button>
+            <Button 
+              onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
+               > 
                 <MessageCircle className="mr-2 h-4 w-4" />
                 Join Our Groupme! 
               </Button>
