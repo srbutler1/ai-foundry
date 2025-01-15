@@ -6,9 +6,9 @@ import foundryLogo from './assets/foundry-logo.png'
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-900 text-white">
+    <div className="flex flex-col min-h-screen bg-zinc-900 text-white">
       {/* Animated Background */}
-      <div className="fixed inset-0 bg-zinc-900">
+      <div className="fixed inset-0 bg-zinc-900 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-100px,#E31837,transparent)]" />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent" />
       </div>
@@ -358,7 +358,7 @@ function App() {
         </div>
 
         {/* Footer */}
-        <footer className="border-t border-red-900/20 mt-16">
+        <footer className="mt-auto border-t border-red-900/20">
           <div className="container mx-auto px-4 py-8">
             <div className="text-center">
               <p className="text-zinc-400">© 2025 Arkansas AI Foundry</p>
