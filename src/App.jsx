@@ -12,36 +12,42 @@ function App() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-100px,#E31837,transparent)]" />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent" />
       </div>
+        <div className="relative">
+          {/* Hero Section */}
+          <div className="relative overflow-hidden">
+            <div className="container mx-auto px-4 py-24">
+              <div className="flex flex-col items-center text-center">
+                {/* Logo with hero animation */}
+                <div className="relative mb-8"
+                  style={{
+                    animation: 'heroFloat 1.5s ease-out forwards'
+                  }}>
+                  <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
+                  <img 
+                    src={foundryLogo} 
+                    alt="Arkansas AI Foundry Logo" 
+                    className="relative z-10 w-48 h-48 object-contain"
+                  />
+                </div>
 
-      <div className="relative">
-        {/* Hero Section */}
-        <div className="relative overflow-hidden">
-          <div className="container mx-auto px-4 py-24">
-            <div className="flex flex-col items-center text-center">
-              <div className="relative mb-8">
-                <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
-                <div className="relative mb-8">
-                <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
-                <img 
-                  src={foundryLogo} 
-                  alt="Arkansas AI Foundry Logo" 
-                  className="relative z-10 w-48 h-48 object-contain"
-                />
+                {/* Content that fades in after logo animation */}
+                <div style={{
+                  animation: 'contentFadeIn 1s ease-out forwards',
+                  animationDelay: '1s',
+                  opacity: 0
+                }}>
+                  <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
+                    Arkansas AI Foundry
+                  </h1>
+                  <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
+                    Bridging classroom learning with real-world AI innovation at the University of Arkansas
+                  </p>
+                  <Button>
+                    Join Our Community
+                    <ChevronRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </div>
               </div>
-              </div>
-              <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-400 via-red-600 to-red-900 drop-shadow-[0_0_15px_rgba(220,38,38,0.4)]">
-                Arkansas AI Foundry
-              </h1>
-              <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
-                Bridging classroom learning with real-world AI innovation at the University of Arkansas
-              </p>
-              <Button 
-              onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
-               > 
-                <MessageCircle className="mr-2 h-4 w-4" />
-                Join Our Community
-                <ChevronRight className="ml-2 h-4 w-4" />
-              </Button>
             </div>
           </div>
         </div>
@@ -377,7 +383,6 @@ function App() {
             </div>
           </div>
         </footer>
-      </div>
     </div>
   )
 }
