@@ -6,10 +6,13 @@ import foundryLogo from './assets/foundry-logo.png'
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-zinc-900 text-white">
-      {/* Animated Background */}
-      <div className="fixed inset-0 bg-zinc-900 -z-10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-100px,#E31837,transparent)]" />
+    <div className="flex flex-col min-h-screen text-white">
+      {/* Space Background */}
+      <div className="space-background">
+        <div className="stars" />
+        <div className="stars-2" />
+        <div className="stars-3" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_600px_at_50%_-150px,rgba(227,24,55,0.7),transparent)]" />
         
         {/* Animated Borders */}
         <div className="absolute inset-x-0 top-0 h-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-red-500 to-transparent" 
@@ -295,11 +298,10 @@ function App() {
                 </div>
               </div>
             </div>
-            {/* Industry Mentors */}
+            {/* Industry Mentors Section - Commented out until mentors are confirmed
             <div>
               <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Industry Mentors</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {/* Mentor 1 */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                   <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
                     <img
@@ -324,6 +326,7 @@ function App() {
                 </div>
               </div>
             </div>
+            */}
           </div>
         </div>
 
@@ -408,7 +411,7 @@ function App() {
             </div>
           </div>
         </footer>
-    </div>
+      </div>
   )
 }
 
