@@ -106,11 +106,11 @@ function App() {
 
         {/* Leadership Team */}
         <div className="container mx-auto px-4 py-16">
-          <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800 text-center">
-            Leadership Team
+          <h2 className="text-3xl font-bold mb-8 text-white text-center">
+            Meet the Team
           </h2>
           <div className="space-y-12">
-            {/* Le */}
+            {/* Executive Board */}
             <div>
               <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Executive Board</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -126,6 +126,29 @@ function App() {
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">[President Name]</h4>
                     <p className="text-zinc-400 mb-4">President</p>
+                    <p className="text-zinc-300 mb-4">[Major/Year]</p>
+                    <p className="text-zinc-300">
+                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
+                      Include relevant experience and what drew them to AI.]
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    </div>
+                  </div>
+                </div>
+                 {/* Founding Member */}
+                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="Founding Member"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">[Name]</h4>
+                    <p className="text-zinc-400 mb-4">Founding Member</p>
                     <p className="text-zinc-300 mb-4">[Major/Year]</p>
                     <p className="text-zinc-300">
                       [Bio: A brief description of their background, interests, and vision for the AI Foundry.
@@ -163,11 +186,10 @@ function App() {
                 </div>
               </div>
             </div>
-
             {/* Faculty Advisors */}
             <div>
               <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Faculty Advisors</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Advisor 1 */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                   <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
@@ -178,22 +200,67 @@ function App() {
                     />
                   </div>
                   <div className="p-6">
-                    <h4 className="text-xl font-bold text-red-500">[Advisor Name]</h4>
-                    <p className="text-zinc-400 mb-2">Department</p>
-                    <p className="text-zinc-400 mb-4">Title</p>
+                    <h4 className="text-xl font-bold text-red-500">Dr. Xinde Xhang</h4>
+                    <p className="text-zinc-400 mb-2">Walton College of Business</p>
+                    <p className="text-zinc-400 mb-4">University Professor</p>
                     <p className="text-zinc-300">
-                      [Bio: Research interests, expertise in AI/ML, and role in supporting the AI Foundry.
-                      Include notable achievements and areas of focus.]
+                      Insert bio here.
                     </p>
                     <div className="mt-4 flex space-x-4">
-                      <a href="#" className="text-red-400 hover:text-red-300">Faculty Page</a>
-                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                      <a 
+                        href="https://walton.uark.edu/departments/finance/directory/uid/xz035/name/Xinde+Zhang/" 
+                        className="text-red-400 hover:text-red-300"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Faculty Page
+                      </a>
+                      <a 
+                        href="xz035@uark.edu" 
+                        className="text-red-400 hover:text-red-300"
+                      >
+                        Email
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Advisor 2 */}
+                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="Faculty Advisor"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">Mr. Michael Cawthon</h4>
+                    <p className="text-zinc-400 mb-2">Walton College of Busines</p>
+                    <p className="text-zinc-400 mb-4">Economics Lecturer</p>
+                    <p className="text-zinc-300">
+                      Insert bio here.
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a 
+                        href="https://walton.uark.edu/departments/economics/directory/uid/wcawthon/name/William+Michael+Cawthon/" 
+                        className="text-red-400 hover:text-red-300"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Faculty Page
+                      </a>
+                      <a 
+                        href="wcawthon@uark.edu" 
+                        className="text-red-400 hover:text-red-300"
+                      >
+                        Email
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
             {/* Industry Mentors */}
             <div>
               <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Industry Mentors</h3>
@@ -287,9 +354,22 @@ function App() {
             <div className="text-center">
               <p className="text-zinc-400">© 2025 Arkansas AI Foundry</p>
               <div className="mt-4 space-x-4">
-                <a href="#" className="text-red-400 hover:text-red-300">Groupme</a>
-                <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                <a href="#" className="text-red-400 hover:text-red-300">HogSync</a>
+                <a 
+                  href="https://groupme.com/join_group/105347053/9oA8jhjn" 
+                  className="text-red-400 hover:text-red-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GroupMe
+                </a>
+                <a 
+                  href="LINKEDIN_URL" 
+                  className="text-red-400 hover:text-red-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
