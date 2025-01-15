@@ -10,7 +10,32 @@ function App() {
       {/* Animated Background */}
       <div className="fixed inset-0 bg-zinc-900 -z-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_800px_at_50%_-100px,#E31837,transparent)]" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent" />
+        
+        {/* Animated Borders */}
+        <div className="absolute inset-x-0 top-0 h-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-red-500 to-transparent" 
+          style={{
+            backgroundSize: '200% 100%',
+            animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
+          }}
+        />
+        <div className="absolute inset-x-0 bottom-0 h-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-red-500 to-transparent"
+          style={{
+            backgroundSize: '200% 100%',
+            animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
+          }}
+        />
+        <div className="absolute inset-y-0 left-0 w-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-b from-transparent via-red-500 to-transparent"
+          style={{
+            backgroundSize: '100% 200%',
+            animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
+          }}
+        />
+        <div className="absolute inset-y-0 right-0 w-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-b from-transparent via-red-500 to-transparent"
+          style={{
+            backgroundSize: '100% 200%',
+            animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
+          }}
+        />
       </div>
         <div className="relative">
           {/* Hero Section */}
