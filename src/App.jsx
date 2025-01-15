@@ -102,7 +102,7 @@ function App() {
               Where Business Meets AI Innovation
             </h2>
             <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              TThe Arkansas AI Foundry unites forward-thinking students from Walton College and across 
+              The Arkansas AI Foundry unites forward-thinking students from Walton College and across 
               diverse disciplines to push the boundaries of artificial intelligence. By combining 
               hands-on projects, strong industry partnerships, and a collaborative learning environment, 
               we’re shaping tomorrow’s leaders in AI. Our community fosters a culture of creativity 
