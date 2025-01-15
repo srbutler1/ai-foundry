@@ -176,12 +176,11 @@ function App() {
                     />
                   </div>
                   <div className="p-6">
-                    <h4 className="text-xl font-bold text-red-500">[President Name]</h4>
+                    <h4 className="text-xl font-bold text-red-500">Sam Butler</h4>
                     <p className="text-zinc-400 mb-4">President</p>
-                    <p className="text-zinc-300 mb-4">[Major/Year]</p>
+                    <p className="text-zinc-300 mb-4">Financial Anlalytics and Economics | Senior</p>
                     <p className="text-zinc-300">
-                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
-                      Include relevant experience and what drew them to AI.]
+                    Sam has a strong interest in AI, its applications, and transformative potential. He has been involved in various groups on and off campus and is currently working on an honors thesis studying afffordability for first-time homebuyers. Outside of his academic and professional pursuits, Sam is an avid sports fan who enjoys staying active and connected to his community.
                     </p>
                     <div className="mt-4 flex space-x-4">
                       <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
