@@ -20,7 +20,7 @@ function App() {
                 {/* Logo with hero animation */}
                 <div className="relative mb-8"
                   style={{
-                    animation: 'heroFloat 1.5s ease-out forwards'
+                    animation: 'heroFloat 4s ease-out forwards'
                   }}>
                   <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
                   <img 
@@ -33,7 +33,7 @@ function App() {
                 {/* Content that fades in after logo animation */}
                 <div style={{
                   animation: 'contentFadeIn 1s ease-out forwards',
-                  animationDelay: '1s',
+                  animationDelay: '3s',
                   opacity: 0
                 }}>
                   <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
