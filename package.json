@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -c arkansasaifoundry.com"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
