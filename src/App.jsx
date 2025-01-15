@@ -109,56 +109,117 @@ function App() {
           <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800 text-center">
             Leadership Team
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Executive Board */}
-            <div className="bg-black/40 border border-red-900/50 backdrop-blur-md p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-red-500 mb-4">Executive Board</h3>
-              <div className="space-y-4">
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[President Name]</p>
-                  <p className="text-sm text-zinc-400">President</p>
+          <div className="space-y-12">
+            {/* Le */}
+            <div>
+              <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Executive Board</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* President */}
+                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="President"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">[President Name]</h4>
+                    <p className="text-zinc-400 mb-4">President</p>
+                    <p className="text-zinc-300 mb-4">[Major/Year]</p>
+                    <p className="text-zinc-300">
+                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
+                      Include relevant experience and what drew them to AI.]
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    </div>
+                  </div>
                 </div>
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Secretary Name]</p>
-                  <p className="text-sm text-zinc-400">Secretary</p>
-                </div>
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Treasurer Name]</p>
-                  <p className="text-sm text-zinc-400">Treasurer</p>
+
+                {/* Treasurer */}
+                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="Treasurer"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">[Treasurer Name]</h4>
+                    <p className="text-zinc-400 mb-4">[Treasurer]</p>
+                    <p className="text-zinc-300 mb-4">[Major/Year]</p>
+                    <p className="text-zinc-300">
+                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
+                      Include relevant experience and what drew them to AI.]
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
             {/* Faculty Advisors */}
-            <div className="bg-black/40 border border-red-900/50 backdrop-blur-md p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-red-500 mb-4">Faculty Advisors</h3>
-              <div className="space-y-4">
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Advisor Name]</p>
-                  <p className="text-sm text-zinc-400">Department</p>
-                  <p className="text-sm text-zinc-400">Title</p>
-                </div>
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Advisor Name]</p>
-                  <p className="text-sm text-zinc-400">Department</p>
-                  <p className="text-sm text-zinc-400">Title</p>
+            <div>
+              <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Faculty Advisors</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* Advisor 1 */}
+                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="Faculty Advisor"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">[Advisor Name]</h4>
+                    <p className="text-zinc-400 mb-2">Department</p>
+                    <p className="text-zinc-400 mb-4">Title</p>
+                    <p className="text-zinc-300">
+                      [Bio: Research interests, expertise in AI/ML, and role in supporting the AI Foundry.
+                      Include notable achievements and areas of focus.]
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="#" className="text-red-400 hover:text-red-300">Faculty Page</a>
+                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
             {/* Industry Mentors */}
-            <div className="bg-black/40 border border-red-900/50 backdrop-blur-md p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-red-500 mb-4">Industry Mentors</h3>
-              <div className="space-y-4">
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Mentor Name]</p>
-                  <p className="text-sm text-zinc-400">Company</p>
-                  <p className="text-sm text-zinc-400">Role</p>
-                </div>
-                <div className="text-zinc-300">
-                  <p className="font-semibold">[Mentor Name]</p>
-                  <p className="text-sm text-zinc-400">Company</p>
-                  <p className="text-sm text-zinc-400">Role</p>
+            <div>
+              <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Industry Mentors</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* Mentor 1 */}
+                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="Industry Mentor"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">[Mentor Name]</h4>
+                    <p className="text-zinc-400 mb-2">Company</p>
+                    <p className="text-zinc-400 mb-4">Role</p>
+                    <p className="text-zinc-300">
+                      [Bio: Industry experience, expertise in AI/ML, and how they support student development.
+                      Include career highlights and areas of specialization.]
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
