@@ -105,11 +105,8 @@ function App() {
               The Arkansas AI Foundry unites forward-thinking students from Walton College and across 
               diverse disciplines to push the boundaries of artificial intelligence. By combining 
               hands-on projects, strong industry partnerships, and a collaborative learning environment, 
-              we’re shaping tomorrow’s leaders in AI. Our community fosters a culture of creativity 
-              and critical thinking, providing members with the resources, mentorship, and real-world 
-              experiences needed to excel in a rapidly evolving technological landscape. Whether you’re 
-              a seasoned coder or simply curious about the possibilities of AI, the Foundry invites you 
-              to join us in forging the future of innovation.
+              we’re shaping tomorrow’s leaders in AI. Whether you’re a seasoned coder or simply curious 
+              about the possibilities of AI, the Foundry invites you to join us in forging the future of innovation.
             </p>
           </div>
         </div>
