@@ -34,7 +34,10 @@ function App() {
               <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
                 Bridging classroom learning with real-world AI innovation at the University of Arkansas
               </p>
-              <Button>
+              <Button 
+              onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
+               > 
+                <MessageCircle className="mr-2 h-4 w-4" />
                 Join Our Community
                 <ChevronRight className="ml-2 h-4 w-4" />
               </Button>
