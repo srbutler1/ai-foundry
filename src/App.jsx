@@ -102,9 +102,14 @@ function App() {
               Where Business Meets AI Innovation
             </h2>
             <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              The Arkansas AI Foundry brings together students from Walton College and other disciplines
-              to explore the frontiers of artificial intelligence. Through hands-on projects, industry connections, 
-              and collaborative learning, we're preparing the next generation of AI leaders.
+              TThe Arkansas AI Foundry unites forward-thinking students from Walton College and across 
+              diverse disciplines to push the boundaries of artificial intelligence. By combining 
+              hands-on projects, strong industry partnerships, and a collaborative learning environment, 
+              we’re shaping tomorrow’s leaders in AI. Our community fosters a culture of creativity 
+              and critical thinking, providing members with the resources, mentorship, and real-world 
+              experiences needed to excel in a rapidly evolving technological landscape. Whether you’re 
+              a seasoned coder or simply curious about the possibilities of AI, the Foundry invites you 
+              to join us in forging the future of innovation.
             </p>
           </div>
         </div>
@@ -116,7 +121,7 @@ function App() {
               <Users className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Guest Speakers & Workshops</h3>
               <p className="text-zinc-400">
-                Learn from industry leaders and experts through regular workshops and speaker series on emerging AI trends.
+                Delve into real-world AI applications and cutting-edge research through regular talks, workshops, and panel discussions with industry thought leaders. Gain insights into the latest trends and network with experts shaping the field.
               </p>
             </div>
 
@@ -124,7 +129,7 @@ function App() {
               <Trophy className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Competitions & Conferences</h3>
               <p className="text-zinc-400">
-                Represent UARK at prestigious AI competitions and conferences with sponsored participation.
+                Represent the University of Arkansas on a national stage. From hackathons to global AI challenges, we secure sponsorships and provide resources to help members showcase their skills—and bring home top honors.
               </p>
             </div>
 
@@ -132,14 +137,36 @@ function App() {
               <Briefcase className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Community Consulting</h3>
               <p className="text-zinc-400">
-                Bring artifical intelligence knowledge and solutions to local organizations. 
+                Partner with local nonprofits, startups, and small businesses to develop AI-driven solutions that elevate our community. Gain real-world experience, build your portfolio, and make a meaningful impact where it matters. 
               </p>
             </div>
+
+            <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
+              <BookOpen className="h-8 w-8 text-red-500 mb-2" />
+              <h3 className="text-xl font-bold text-red-500 mb-2">Mentorship & Career Development</h3>
+              <p className="text-zinc-400">
+                Provide guidance and support for every stage of your AI journey—from résumé reviews 
+                and interview prep to pairing up with experienced peers and alumni. Develop a professional 
+                network, explore internships or research opportunities, and take your first steps toward 
+                becoming a leading voice in the AI community.
+              </p>  
+            </div>
+
+            <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
+              <Brain className="h-8 w-8 text-red-500 mb-2" /> 
+              <h3 className="text-xl font-bold text-red-500 mb-2">Ethical AI & Social Impact</h3>
+              <p className="text-zinc-400">
+                Engage in discussions and initiatives that focus on the responsible use of artificial intelligence. 
+                Learn about bias mitigation, inclusive data practices, and sustainable development. By applying 
+                your skills toward ethical AI solutions, you’ll help shape technology that truly benefits society.
+              </p>
+            </div>
+
             <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
               <Code className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Hands-on Projects</h3>
               <p className="text-zinc-400">
-                Access cutting-edge hardware and software resources for practical AI project development.
+                Work with cutting-edge tools, from advanced computing environments to the latest AI libraries and frameworks. Collaborate across different fields of study to brainstorm, prototype, and refine innovative solutions to real-world problems.
               </p>
             </div>
           </div>
