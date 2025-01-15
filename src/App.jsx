@@ -76,7 +76,7 @@ function App() {
             </div>
 
             <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-              <Code className="h-8 w-8 text-red-500 mb-2" />
+              <Briefcase className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Community Consulting</h3>
               <p className="text-zinc-400">
                 Bring artifical intelligence knowledge and solutions to local organizations. 
