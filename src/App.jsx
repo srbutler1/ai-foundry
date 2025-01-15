@@ -52,9 +52,16 @@ function App() {
               Where Business Meets AI Innovation
             </h2>
             <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              The Arkansas AI Foundry brings together students from Walton College and other disciplines
-              to explore the frontiers of artificial intelligence. Through hands-on projects, industry connections, 
-              and collaborative learning, we're preparing the next generation of AI leaders.
+            The Arkansas AI Foundry unites students, faculty, and industry professionals 
+            around a shared passion for artificial intelligence. Our primary goal is to 
+            empower students from Walton College—and any other discipline—to explore 
+            cutting-edge technologies, solve real-world business challenges, and 
+            cultivate the next generation of AI leaders.
+
+            By joining our community, you’ll gain exposure to diverse AI applications—from 
+            data-driven decision-making in finance to machine learning innovations in healthcare 
+            and beyond. Whether you’re just starting or have advanced AI knowledge, there’s a 
+            place for everyone to learn, collaborate, and make an impact.
             </p>
           </div>
         </div>
@@ -66,7 +73,10 @@ function App() {
               <Users className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Guest Speakers & Workshops</h3>
               <p className="text-zinc-400">
-                Learn from industry leaders and experts through regular workshops and speaker series on emerging AI trends.
+              Our regular workshops and speaker series provide firsthand insights from top professionals in AI, 
+              machine learning, and data science. Learn best practices, emerging trends, and the practical 
+              tools you’ll need to solve complex problems. Keep an eye on our calendar 
+              for upcoming events that will supercharge your technical and business acumen
               </p>
             </div>
 
@@ -74,7 +84,9 @@ function App() {
               <Trophy className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Competitions & Conferences</h3>
               <p className="text-zinc-400">
-                Represent UARK at prestigious AI competitions and conferences with sponsored participation.
+              Represent the University of Arkansas at prestigious hackathons, pitch competitions, and global conferences. 
+              With sponsor support, our members get to present groundbreaking ideas, and network with industry heavyweights. 
+              It’s a chance to sharpen your skills in a competitive setting and build lifelong connections in the AI community.
               </p>
             </div>
 
@@ -82,7 +94,9 @@ function App() {
               <Briefcase className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Community Consulting</h3>
               <p className="text-zinc-400">
-                Bring artifical intelligence knowledge and solutions to local organizations. 
+              We believe AI has the power to transform local businesses and nonprofits. Through our Community Consulting program, 
+              students collaborate with local organizations to design data-driven strategies, develop AI tools, and offer 
+              actionable insights. This hands-on approach ensures members gain real-world experience while making a positive impact in the region. 
               </p>
             </div>
 
@@ -90,7 +104,9 @@ function App() {
               <Code className="h-8 w-8 text-red-500 mb-2" />
               <h3 className="text-xl font-bold text-red-500 mb-2">Hands-on Projects</h3>
               <p className="text-zinc-400">
-                Access cutting-edge hardware and software resources for practical AI project development.
+              Our members tackle practical AI challenges using cutting-edge software and hardware. Whether you’re testing 
+              a new algorithm in Python or experimenting with a cloud-based AI platform, we provide the resources—and
+              supportive environment—to see your ideas through from concept to deployment.
               </p>
             </div>
           </div>
