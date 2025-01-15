@@ -102,7 +102,7 @@ function App() {
               Where Business Meets AI Innovation
             </h2>
             <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              TThe Arkansas AI Foundry unites forward-thinking students from Walton College and across 
+              The Arkansas AI Foundry unites forward-thinking students from Walton College and across 
               diverse disciplines to push the boundaries of artificial intelligence. By combining 
               hands-on projects, strong industry partnerships, and a collaborative learning environment, 
               we’re shaping tomorrow’s leaders in AI. Our community fosters a culture of creativity 
@@ -204,7 +204,7 @@ function App() {
                   </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Sam Butler</h4>
-                    <p className="text-zinc-400 mb-4">President</p>
+                    <p className="text-zinc-400 mb-4">President & Founder</p>
                     <p className="text-zinc-300 mb-4">Financial Anlalytics and Economics | Senior</p>
                     <p className="text-zinc-300">
                     Sam has a strong interest in AI, its applications, and transformative potential. He has been involved in various groups on and off campus and is currently working on an honors thesis studying afffordability for first-time homebuyers. Outside of his academic and professional pursuits, Sam is an avid sports fan who enjoys staying active and connected to his community.
@@ -225,12 +225,11 @@ function App() {
                     />
                   </div>
                   <div className="p-6">
-                    <h4 className="text-xl font-bold text-red-500">[Name]</h4>
-                    <p className="text-zinc-400 mb-4">Founding Member</p>
-                    <p className="text-zinc-300 mb-4">[Major/Year]</p>
+                    <h4 className="text-xl font-bold text-red-500">Noah Hertlein</h4>
+                    <p className="text-zinc-400 mb-4">VP of A.I. & Co-Founder</p>
+                    <p className="text-zinc-300 mb-4">Financial Analytics with a Minor in Information Systems | Senior</p>
                     <p className="text-zinc-300">
-                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
-                      Include relevant experience and what drew them to AI.]
+                      Noah is passionate about the transformative potential of artificial intelligence and how it applies to real-world challenges. He currently serves as a research assistant at the Walton College of Business, focusing on the intersection of AI and finance. Outside of his education pursuits, Noah enjoys watching the Razorbacks, playing video games, and staying involved in his local community.
                     </p>
                     <div className="mt-4 flex space-x-4">
                       <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
