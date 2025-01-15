@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arkansasaifoundry.com/sitemap.xml
