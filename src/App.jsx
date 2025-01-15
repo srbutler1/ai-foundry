@@ -1,12 +1,24 @@
 import { Brain, Users, BookOpen, MessageCircle, ChevronRight, Trophy, Briefcase, Code } from 'lucide-react'
 import { Button } from './components/ui/button'
 import foundryLogo from './assets/foundry-logo.png'
+import { Helmet } from 'react-helmet-async'
 
 
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen text-white">
+      <Helmet>
+        <title>Arkansas AI Foundry - Student AI Innovation at University of Arkansas</title>
+        <meta name="description" content="Arkansas AI Foundry bridges classroom learning with real-world AI innovation at the University of Arkansas. Join our community of students exploring artificial intelligence." />
+        <meta name="keywords" content="AI, artificial intelligence, University of Arkansas, student organization, Walton College, innovation, technology" />
+        <meta property="og:title" content="Arkansas AI Foundry - Student AI Innovation" />
+        <meta property="og:description" content="Join the Arkansas AI Foundry community at University of Arkansas to explore AI innovation and advance your career in artificial intelligence." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://arkansasaifoundry.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://arkansasaifoundry.com" />
+      </Helmet>
       {/* Space Background */}
       <div className="space-background">
         <div className="stars" />
