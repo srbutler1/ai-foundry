@@ -198,7 +198,7 @@ function App() {
                   <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
                     <img
                       src="/api/placeholder/400/225"
-                      alt="President"
+                      alt="President & Founder"
                       className="object-cover w-full h-full"
                     />
                   </div>
@@ -210,8 +210,8 @@ function App() {
                     Sam has a strong interest in AI, its applications, and transformative potential. He has been involved in various groups on and off campus and is currently working on an honors thesis studying afffordability for first-time homebuyers. Outside of his academic and professional pursuits, Sam is an avid sports fan who enjoys staying active and connected to his community.
                     </p>
                     <div className="mt-4 flex space-x-4">
-                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                      <a href="https://www.linkedin.com/in/sam-butler1/" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="mailto:sbutler@walton.uark.edu" className="text-red-400 hover:text-red-300">Email</a>
                     </div>
                   </div>
                 </div>
@@ -220,7 +220,7 @@ function App() {
                   <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
                     <img
                       src="/api/placeholder/400/225"
-                      alt="Founding Member"
+                      alt="VP of A.I. & Co-Founder"
                       className="object-cover w-full h-full"
                     />
                   </div>
@@ -232,8 +232,8 @@ function App() {
                       Noah is passionate about the transformative potential of artificial intelligence and how it applies to real-world challenges. He currently serves as a research assistant at the Walton College of Business, focusing on the intersection of AI and finance. Outside of his education pursuits, Noah enjoys watching the Razorbacks, playing video games, and staying involved in his local community.
                     </p>
                     <div className="mt-4 flex space-x-4">
-                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                      <a href="https://www.linkedin.com/in/noahhertlein/" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="mailto:nahertle@uark.edu" className="text-red-400 hover:text-red-300">Email</a>
                     </div>
                   </div>
                 </div>
@@ -293,7 +293,7 @@ function App() {
                         Faculty Page
                       </a>
                       <a 
-                        href="xz035@uark.edu" 
+                        href="mailto:xzhang@walton.uark.edu" 
                         className="text-red-400 hover:text-red-300"
                       >
                         Email
@@ -328,7 +328,7 @@ function App() {
                         Faculty Page
                       </a>
                       <a 
-                        href="wcawthon@uark.edu" 
+                        href="mailto:wcawthon@uark.edu" 
                         className="text-red-400 hover:text-red-300"
                       >
                         Email
@@ -440,7 +440,7 @@ function App() {
                   GroupMe
                 </a>
                 <a 
-                  href="LINKEDIN_URL" 
+                  href="https://www.linkedin.com/company/arkansas-ai-foundry/" 
                   className="text-red-400 hover:text-red-300"
                   target="_blank"
                   rel="noopener noreferrer"
