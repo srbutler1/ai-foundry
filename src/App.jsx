@@ -15,6 +15,11 @@ function App() {
         <meta property="og:title" content="Arkansas AI Foundry - Student AI Innovation" />
         <meta property="og:description" content="Join the Arkansas AI Foundry community at University of Arkansas to explore AI innovation and advance your career in artificial intelligence." />
         <meta property="og:type" content="website" />
+              {/* Favicon */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <meta property="og:url" content="https://arkansasaifoundry.com" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://arkansasaifoundry.com" />
