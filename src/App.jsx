@@ -383,20 +383,36 @@ function App() {
                 <Briefcase className="h-8 w-8 text-red-500 mb-4" />
                 <h3 className="text-xl font-bold text-red-500 mb-3">Industry Connections</h3>
                 <ul className="space-y-2 text-zinc-300">
-                  <li>• Direct networking with AI companies</li>
-                  <li>• Internship opportunities</li>
-                  <li>• Resume workshops and interview prep</li>
-                  <li>• Industry mentorship programs</li>
+                  <li>
+                    <strong>•Direct Networking with AI Companies:</strong> Participate in exclusive meetups and info sessions featuring top AI firms. Build meaningful professional relationships through personalized networking events and campus visits.
+                  </li>
+                  <li>
+                    <strong>•Internship Opportunities:</strong> Learn how to identify and apply for AI-related internships, from finding the best postings online to crafting standout applications. Gain the support and resources needed to secure real-world industry experience.
+                  </li>
+                  <li>
+                    <strong>•Resume Workshops & Interview Prep:</strong> Hone your interviewing skills and perfect your resume with help from professionals and alumni in the field. We’ll guide you through the do’s and don’ts of a standout application.
+                  </li>
+                  <li>
+                    <strong>•Industry Mentorship Programs:</strong> Get paired with seasoned AI experts who can offer personalized feedback, career advice, and insight into breaking into competitive roles at top companies.
+                  </li>
                 </ul>
               </div>
               <div>
                 <Brain className="h-8 w-8 text-red-500 mb-4" />
                 <h3 className="text-xl font-bold text-red-500 mb-3">Skill Development</h3>
                 <ul className="space-y-2 text-zinc-300">
-                  <li>• Hands-on technical workshops</li>
-                  <li>• Cross-disciplinary projects</li>
-                  <li>• Industry certification prep</li>
-                  <li>• Leadership opportunities</li>
+                  <li>
+                    <strong>•Hands-On Technical Workshops:</strong> Deepen your AI knowledge through specialized sessions on Python, machine learning models, data visualization tools, and more—led by both industry experts and senior club members.
+                  </li>
+                  <li>
+                    <strong>•Cross-Disciplinary Projects:</strong> Work on real-life projects that blend AI with fields like healthcare, finance, and education. Collaborate with peers from diverse backgrounds to build innovative solutions.
+                  </li>
+                  <li>
+                    <strong>•Industry Certification Prep:</strong> Join study groups and coaching sessions to prepare for top AI and cloud computing certifications. Learn the practical skills and theoretical knowledge needed to excel in these exams.
+                  </li>
+                  <li>
+                    <strong>•Leadership Opportunities:</strong> Take the lead on committee initiatives, run specialized workshops, or mentor younger members. Strengthen your organizational and leadership skills while making an impact in the club.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -410,8 +426,7 @@ function App() {
               Join the Community
             </h2>
             <p className="text-zinc-300 mb-8 backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-              Whether you're from Walton College, Engineering, Data Science, or any other discipline there's a place for you at the 
-              Arkansas AI Foundry. Join us in building the future of AI while advancing your career.
+              No matter your background—Walton College, Engineering, Data Science, or beyond—there’s a place for you at the Arkansas AI Foundry. Join us in shaping the future of AI while propelling your career forward.
             </p>
             <div className="flex justify-center space-x-4">
             <Button 
