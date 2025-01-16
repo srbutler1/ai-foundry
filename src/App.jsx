@@ -231,7 +231,7 @@ function App() {
                     <p className="text-zinc-400 mb-4">VP of A.I. & Co-Founder</p>
                     <p className="text-zinc-300 mb-4">Financial Analytics with a Minor in Information Systems | Senior</p>
                     <p className="text-zinc-300">
-                      Noah is passionate about the transformative potential of artificial intelligence and how it applies to real-world challenges. He currently serves as a research assistant at the Walton College of Business, focusing on the intersection of AI and finance. Outside of his education pursuits, Noah enjoys watching the Razorbacks, playing video games, and staying involved in his local community.
+                      Noah is passionate about the transformative potential of artificial intelligence and how it applies to real-world challenges. He currently serves as a research assistant at the Walton College of Business, focusing on the intersection of AI and finance. Outside of his educational pursuits, Noah enjoys watching the Razorbacks, playing video games, and staying involved in his local community.
                     </p>
                     <div className="mt-4 flex space-x-4">
                       <a href="https://www.linkedin.com/in/noahhertlein/" className="text-red-400 hover:text-red-300">LinkedIn</a>
