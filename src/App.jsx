@@ -197,12 +197,17 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* President */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
-                    <img
-                      src="/api/placeholder/400/225"
-                      alt="President & Founder"
-                      className="object-cover w-full h-full"
-                    />
+                  <div className="relative">
+                    <div className="absolute top-4 right-4">
+                      <img
+                        src="/images/sam-butler-profile.jpg"
+                        alt="Sam Butler - President & Founder"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      />
+                    </div>
                   </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Sam Butler</h4>
@@ -219,12 +224,17 @@ function App() {
                 </div>
                  {/* Founding Member */}
                  <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
-                    <img
-                      src="/api/placeholder/400/225"
-                      alt="VP of A.I. & Co-Founder"
-                      className="object-cover w-full h-full"
-                    />
+                  <div className="relative">
+                    <div className="absolute top-4 right-4">
+                      <img
+                        src="/api/placeholder/400/225"
+                        alt="VP of A.I. & Co-Founder"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      />
+                    </div>
                   </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Noah Hertlein</h4>
@@ -242,12 +252,17 @@ function App() {
 
                 {/* Treasurer */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
-                    <img
-                      src="/api/placeholder/400/225"
-                      alt="Treasurer"
-                      className="object-cover w-full h-full"
-                    />
+                  <div className="relative">
+                    <div className="absolute top-4 right-4">
+                      <img
+                        src="/api/placeholder/400/225"
+                        alt="Treasurer"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      />
+                    </div>
                   </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Looking for a treasurer!</h4>
@@ -265,12 +280,17 @@ function App() {
 
                 {/* VP of Data Science */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
-                    <img
-                      src="/api/placeholder/400/225"
-                      alt="VP of Data Science"
-                      className="object-cover w-full h-full"
-                    />
+                  <div className="relative">
+                    <div className="absolute top-4 right-4">
+                      <img
+                        src="/api/placeholder/400/225"
+                        alt="VP of Data Science"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      />
+                    </div>
                   </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Hector Negron</h4>
@@ -295,13 +315,6 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Advisor 1 */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
-                    <img
-                      src="/api/placeholder/400/225"
-                      alt="Faculty Advisor"
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Dr. Xinde Zhang</h4>
                     <p className="text-zinc-400 mb-2">Walton College of Business</p>
@@ -330,13 +343,6 @@ function App() {
 
                 {/* Advisor 2 */}
                 <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
-                    <img
-                      src="/api/placeholder/400/225"
-                      alt="Faculty Advisor"
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Mr. Michael Cawthon</h4>
                     <p className="text-zinc-400 mb-2">Walton College of Busines</p>
