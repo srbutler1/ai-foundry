@@ -250,7 +250,7 @@ function App() {
                     />
                   </div>
                   <div className="p-6">
-                    <h4 className="text-xl font-bold text-red-500">[Treasurer Name]</h4>
+                    <h4 className="text-xl font-bold text-red-500">Looking for a treasurer!</h4>
                     <p className="text-zinc-400 mb-4">[Treasurer]</p>
                     <p className="text-zinc-300 mb-4">[Major/Year]</p>
                     <p className="text-zinc-300">
