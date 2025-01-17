@@ -15,7 +15,7 @@ function App() {
         <meta property="og:title" content="Arkansas AI Foundry - Student AI Innovation" />
         <meta property="og:description" content="Join the Arkansas AI Foundry community at University of Arkansas to explore AI innovation and advance your career in artificial intelligence." />
         <meta property="og:type" content="website" />
-              {/* Favicon */}
+        {/* Favicon */}
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -57,7 +57,7 @@ function App() {
           }}
         />
       </div>
-        <div className="relative">
+      <div className="relative">
           {/* Hero Section */}
           <div className="relative overflow-hidden">
             <div className="container mx-auto px-4 py-24">
@@ -263,8 +263,33 @@ function App() {
                     </div>
                   </div>
                 </div>
+
+                {/* VP of Data Science */}
+                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                  <div className="aspect-w-16 aspect-h-9 bg-zinc-800">
+                    <img
+                      src="/api/placeholder/400/225"
+                      alt="VP of Data Science"
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h4 className="text-xl font-bold text-red-500">Hector Negron</h4>
+                    <p className="text-zinc-400 mb-4">VP of Data Science</p>
+                    <p className="text-zinc-300 mb-4">[Data Science | Senior]</p>
+                    <p className="text-zinc-300">
+                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
+                      Include relevant experience and what drew them to AI.]
+                    </p>
+                    <div className="mt-4 flex space-x-4">
+                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+
             {/* Faculty Advisors */}
             <div>
               <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Faculty Advisors</h3>
@@ -340,6 +365,7 @@ function App() {
                 </div>
               </div>
             </div>
+
             {/* Industry Mentors Section - Commented out until mentors are confirmed
             <div>
               <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Industry Mentors</h3>
