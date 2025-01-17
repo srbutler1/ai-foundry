@@ -117,4 +117,4 @@ git checkout -b feature/your-feature-name
 4. Update documentation if needed
 
 ## Deployment
-ATM, Sam pushes changes live regularly
+at the moment, Sam pushes changes live regularly
