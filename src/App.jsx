@@ -304,7 +304,7 @@ function App() {
                     />
                   </div>
                   <div className="p-6">
-                    <h4 className="text-xl font-bold text-red-500">Dr. Xinde Xhang</h4>
+                    <h4 className="text-xl font-bold text-red-500">Dr. Xinde Zhang</h4>
                     <p className="text-zinc-400 mb-2">Walton College of Business</p>
                     <p className="text-zinc-400 mb-4">University Professor</p>
                     <p className="text-zinc-300">
