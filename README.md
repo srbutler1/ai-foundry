@@ -88,7 +88,7 @@ ai-foundry/
 ```
 
 ## Need Help?
-Contact [your contact information] for questions or assistance with the website.
+Contact mailto:sbutler@walton.uark.edu or nhertlein@walton.uark.edu  for questions or assistance with the website.
 
 ## Development Guidelines
 
