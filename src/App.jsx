@@ -275,7 +275,7 @@ function App() {
                   <div className="p-6">
                     <h4 className="text-xl font-bold text-red-500">Hector Negron</h4>
                     <p className="text-zinc-400 mb-4">VP of Data Science</p>
-                    <p className="text-zinc-300 mb-4">[Data Science | Senior]</p>
+                    <p className="text-zinc-300 mb-4">Data Science | Senior</p>
                     <p className="text-zinc-300">
                       [Bio: A brief description of their background, interests, and vision for the AI Foundry.
                       Include relevant experience and what drew them to AI.]
