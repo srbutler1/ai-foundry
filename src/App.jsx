@@ -296,8 +296,7 @@ function App() {
                     <p className="text-zinc-400 mb-4">VP of Data Science</p>
                     <p className="text-zinc-300 mb-4">Data Science | Senior</p>
                     <p className="text-zinc-300">
-                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
-                      Include relevant experience and what drew them to AI.]
+                    Hector thrives on creating innovative and data-driven solutions to complex challenges. He's currently captain of the Arkansas Men's Lacrosse team and working on an honors thesis utilizing statistical models for retail space-allocation. Hector is passionate about forming meaningful relationships within his communities. Some of his interests are strength & conditioning, cars, and mma. 
                     </p>
                     <div className="mt-4 flex space-x-4">
                       <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
