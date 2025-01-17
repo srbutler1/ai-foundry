@@ -117,4 +117,4 @@ git checkout -b feature/your-feature-name
 4. Update documentation if needed
 
 ## Deployment
-[Add deployment instructions once hosting solution is finalized]
+ATM, Sam pushes changes live regularly
