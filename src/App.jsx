@@ -254,8 +254,7 @@ function App() {
                     <p className="text-zinc-400 mb-4">[Treasurer]</p>
                     <p className="text-zinc-300 mb-4">[Major/Year]</p>
                     <p className="text-zinc-300">
-                      [Bio: A brief description of their background, interests, and vision for the AI Foundry.
-                      Include relevant experience and what drew them to AI.]
+                      Reach out to Sam if you're interested in the treasurer position! Preferably a junior or below. 
                     </p>
                     <div className="mt-4 flex space-x-4">
                       <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
