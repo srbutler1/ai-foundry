@@ -282,7 +282,7 @@ function App() {
                   <div className="relative">
                     <div className="absolute top-4 right-4">
                       <img
-                        src="/api/placeholder/400/225"
+                        src="/images/Hector_Headshot.jpeg"
                         alt="VP of Data Science"
                         width="80"
                         height="80"
@@ -299,8 +299,8 @@ function App() {
                     Hector thrives on creating innovative and data-driven solutions to complex challenges. He's currently captain of the Arkansas Men's Lacrosse team and working on an honors thesis utilizing statistical models for retail space-allocation. Hector is passionate about forming meaningful relationships within his communities. Some of his interests are strength & conditioning, cars, and mma. 
                     </p>
                     <div className="mt-4 flex space-x-4">
-                      <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                      <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                      <a href="https://www.linkedin.com/in/hector-thomas-negron" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                      <a href="mailto:htnegron@uark.edu" className="text-red-400 hover:text-red-300">Email</a>
                     </div>
                   </div>
                 </div>
