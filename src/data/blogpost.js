@@ -1,9 +1,9 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "Getting Started with AI in Business",
-    author: "Dr. Xinde Zhang",
-    date: "2025-01-15",
+    title: "Getting Started with AI in Business - test blog post",
+    author: "Sam Butler",
+    date: "2025-01-19",
     content: `# Getting Started with AI in Business
 
 Artificial Intelligence is transforming the way we work and live. At the Arkansas AI Foundry,
