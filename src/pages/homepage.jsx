@@ -434,6 +434,12 @@ const HomePage = () => {
             <Button variant="outline">
               Upcoming Events
             </Button>
+            <Button 
+            onClick={() => window.open('mailto:arkansas.aifoundry@gmail.com', '_blank')}
+             > 
+              <MessageCircle className="mr-2 h-4 w-4" />
+              Contact Us 
+            </Button>
           </div>
         </div>
       </div>
@@ -451,6 +457,14 @@ const HomePage = () => {
                 rel="noopener noreferrer"
               >
                 GroupMe
+              </a>
+              <a 
+                href="mailto:arkansas.aifoundry@gmail.com" 
+                className="text-red-400 hover:text-red-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Email
               </a>
               <a 
                 href="https://www.linkedin.com/company/arkansas-ai-foundry/" 
