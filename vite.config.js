@@ -14,4 +14,10 @@ export default defineConfig({
       priority: 1.0
     })
   ],
+  server: {
+    historyApiFallback: true,
+  },
+  preview: {
+    historyApiFallback: true,
+  }
 })
