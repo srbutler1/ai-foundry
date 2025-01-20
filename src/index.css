@@ -66,3 +66,33 @@ body {
     background-position: 200% 0%;
   }
 }
+
+@keyframes sidebarPulse {
+  0% {
+    opacity: 0.3;
+    box-shadow: 0 0 10px #E31837;
+  }
+  50% {
+    opacity: 0.6;
+    box-shadow: 0 0 20px #E31837;
+  }
+  100% {
+    opacity: 0.3;
+    box-shadow: 0 0 10px #E31837;
+  }
+}
+
+@layer components {
+  .sidebar-handle {
+    @apply absolute right-0 h-full w-1 bg-red-500/20 cursor-pointer transition-all duration-300;
+  }
+  
+  .sidebar-handle:hover {
+    @apply w-2 bg-red-500/40;
+    box-shadow: 0 0 15px #E31837;
+  }
+
+  .sidebar-handle-pulse {
+    animation: sidebarPulse 2s ease-in-out infinite;
+  }
+}

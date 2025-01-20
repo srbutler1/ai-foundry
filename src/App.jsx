@@ -4,6 +4,7 @@ import HomePage from './pages/homepage';
 import BlogPage from './pages/blogpage';
 import RootLayout from './components/layout/RootLayout';
 import SidebarLayout from './components/layout/sidebarlayout';
+import ConsultingPage from './pages/consultingpage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route element={<SidebarLayout />}>
               <Route path="/" element={<HomePage />} />
               <Route path="/blog" element={<BlogPage />} />
+              <Route path="/consulting" element={<ConsultingPage />} />
             </Route>
           </Route>
         </Routes>
