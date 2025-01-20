@@ -18,6 +18,23 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:title" content="Arkansas AI Foundry" />
     <meta name="twitter:description" content="University of Arkansas AI Innovation Hub" />
+    
+    <!-- GitHub Pages SPA Redirect -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <script type="module" crossorigin src="/assets/index-BR1bCy5b.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CAqfDU8t.css">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
