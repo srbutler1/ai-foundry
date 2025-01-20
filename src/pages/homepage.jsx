@@ -202,9 +202,9 @@ const HomePage = () => {
                {/* Founding Member */}
                <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                 <div className="relative">
-                  <div className="absolute top-4 right-4">
+                  <div className="absolute top-4 right-4 w-20 h-20">
                     <img
-                      src="/images/noah-headshot.jpeg"
+                      src="/images/noah-headshot-final.jpg"
                       alt="Noah Hertlein - VP of A.I. & Co-Founder"
                       width="80"
                       height="80"
@@ -256,7 +256,7 @@ const HomePage = () => {
               {/* VP of Data Science */}
               <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                 <div className="relative">
-                  <div className="absolute top-4 right-4">
+                  <div className="absolute top-4 right-4 w-20 h-20">
                     <img
                       src="/images/Hector_Headshot.jpeg"
                       alt="Hector Negron - VP of Data Science"
