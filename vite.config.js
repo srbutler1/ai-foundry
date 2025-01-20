@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     ViteSitemap({
       hostname: 'https://arkansasaifoundry.com',
-      routes: ['/'],
+      routes: ['/', '/blog', '/consulting'],
       lastmod: new Date().toISOString(),
       changefreq: 'weekly',
       priority: 1.0
