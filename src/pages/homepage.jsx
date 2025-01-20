@@ -291,9 +291,9 @@ const HomePage = () => {
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-red-500">Dr. Xinde Zhang</h4>
                   <p className="text-zinc-400 mb-2">Walton College of Business</p>
-                  <p className="text-zinc-400 mb-4">University Professor</p>
+                  <p className="text-zinc-400 mb-4">Associate Teaching Professor</p>
                   <p className="text-zinc-300">
-                    Insert bio here.
+                  Dr. Xinde (Cinder) Zhang is an Associate Teaching Professor and the founding faculty of the Financial Analytics program at the University of Arkansas. He specializes in generative AI and financial education, developing innovative courses and research at the intersection of AI and finance. Dr. Zhang has received recognition for his contributions to teaching and research, with work published in top journals like the Journal of Financial and Quantitative Analysis. A global educator and thought leader, he integrates advanced tools and AI methodologies to revolutionize financial education and analytics.
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a 
