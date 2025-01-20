@@ -35,7 +35,7 @@ The main website content is in `src/pages/homepage.jsx`. The file contains sever
 ### How to Edit Content
 
 1. **Update Leadership Information**
-   - Open `src/App.jsx`
+   - Open `src/homepage.jsx`
    - Locate the "Leadership Team" section
    - Replace placeholder text (e.g., "[President Name]") with actual information
 
