@@ -23,7 +23,7 @@ npm run dev
 ## Editing the Website
 
 ### Structure
-The main website content is in `src/App.jsx`. The file contains several sections:
+The main website content is in `src/pages/homepage.jsx`. The file contains several sections:
 - Hero Section
 - About Section
 - Core Offerings
@@ -73,18 +73,19 @@ git push
 
 ```
 ai-foundry/
-├── src/
-│   ├── App.jsx          # Main website content
-│   ├── components/
-│   │   └── ui/
-│   │       └── button.jsx
-│   ├── index.css        # Global styles
-│   └── main.jsx         # Entry point
-├── public/              # Static assets
-├── index.html
-├── package.json
-├── tailwind.config.js   # Tailwind configuration
-└── vite.config.js       # Vite configuration
+.
+├── dist
+│   ├── assets
+│   └── images
+├── node_modules
+# lotta modules here 
+├── public
+│   └── images
+└── src
+    ├── assets
+    ├── components
+    ├── data
+    └── pages
 ```
 
 ## Need Help?
