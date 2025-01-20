@@ -288,6 +288,17 @@ const HomePage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Advisor 1 */}
               <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                <div className="relative">
+                  <div className="absolute top-4 right-4 w-20 h-20">
+                    <img
+                      src="/images/cinder-headshot-final.jpg"
+                      alt="Dr. Xinde Zhang"
+                      width="80"
+                      height="80"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                    />
+                  </div>
+                </div>
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-red-500">Dr. Xinde Zhang</h4>
                   <p className="text-zinc-400 mb-2">Walton College of Business</p>
@@ -316,6 +327,17 @@ const HomePage = () => {
 
               {/* Advisor 2 */}
               <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                <div className="relative">
+                  <div className="absolute top-4 right-4">
+                    <img
+                      src="#"
+                      alt="Mr. Michael Cawthon"
+                      width="80"
+                      height="80"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                    />
+                  </div>
+                </div>
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-red-500">Mr. Michael Cawthon</h4>
                   <p className="text-zinc-400 mb-2">Walton College of Busines</p>
