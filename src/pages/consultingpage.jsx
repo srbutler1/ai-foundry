@@ -13,7 +13,7 @@ const ConsultingPage = () => {
             </a>
             <div className="mt-4">
                 <p>
-                    For any questions, feel free to email us at <a href="mailto:sbutler@walton.uark.edu" className="text-blue-500">sbutler@walton.uark.edu</a> or call us at <a href="tel:+19137478659" className="text-blue-500">913-747-8659</a>.
+                    For any questions, feel free to email us at <a href="mailto:arkansas.aifoundry@gmail.com" className="text-blue-500">arkansas.aifoundry@gmail.com</a> or call us at <a href="tel:+19137478659" className="text-blue-500">913-747-8659</a>.
                 </p>
             </div>
         </div>
