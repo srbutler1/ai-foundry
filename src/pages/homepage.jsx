@@ -204,12 +204,11 @@ const HomePage = () => {
                 <div className="relative">
                   <div className="absolute top-4 right-4">
                     <img
-                      src="/api/placeholder/400/225"
-                      alt="VP of A.I. & Co-Founder"
+                      src="/images/noah-headshot.jpeg"
+                      alt="Noah Hertlein - VP of A.I. & Co-Founder"
                       width="80"
                       height="80"
-                      loading="lazy"
-                      className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
                     />
                   </div>
                 </div>
@@ -232,12 +231,11 @@ const HomePage = () => {
                 <div className="relative">
                   <div className="absolute top-4 right-4">
                     <img
-                      src="/api/placeholder/400/225"
+                      src="#"
                       alt="Treasurer"
                       width="80"
                       height="80"
-                      loading="lazy"
-                      className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
                     />
                   </div>
                 </div>
@@ -260,12 +258,11 @@ const HomePage = () => {
                 <div className="relative">
                   <div className="absolute top-4 right-4">
                     <img
-                      src="/api/placeholder/400/225"
-                      alt="VP of Data Science"
+                      src="/images/Hector_Headshot.jpeg"
+                      alt="Hector Negron - VP of Data Science"
                       width="80"
                       height="80"
-                      loading="lazy"
-                      className="w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
                     />
                   </div>
                 </div>
