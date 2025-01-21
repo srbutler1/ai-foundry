@@ -1,6 +1,6 @@
 # Arkansas AI Foundry Website
 
-This is the official website for the Arkansas AI Foundry club at the University of Arkansas. Built with React, Vite, and TailwindCSS.
+This is the official website for the AI Foundry at the University of Arkansas. Built with React, Vite, and TailwindCSS.
 
 ## Setup Instructions
 
