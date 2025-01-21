@@ -105,7 +105,7 @@ const ConsultingPage = () => {
 
       {/* Consulting Form CTA */}
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeRExKLYpEsKF4eey0BLrzymOddfGcD8m2FqxA50NgfTjd7_A/viewform?usp=header"
+        href="https://forms.gle/p8Wov61ahwprS2i87"
         target="_blank"
         rel="noopener noreferrer"
       >
