@@ -65,6 +65,7 @@ const HomePage = () => {
                 <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
                   Bridging classroom learning with real-world AI innovation at the University of Arkansas
                 </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
                 >
@@ -72,6 +73,14 @@ const HomePage = () => {
                   Join Our Community
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </Button>
+                <Button
+                  onClick={() => window.open('https://arkansasaifoundry.com/consulting', '_blank')}
+                >
+                  <Briefcase className="mr-2 h-4 w-4" />  
+                  Learn More About Community Consulting
+                  <ChevronRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
               </div>
             </div>
           </div>
