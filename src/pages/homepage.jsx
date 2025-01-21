@@ -68,17 +68,19 @@ const HomePage = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
+                  className="w-64"
                 >
-                  <MessageCircle className="mr-2 h-4 w-4" />  
+                  <MessageCircle className="mr-2 h-5 w-5" />  
                   Join Our Community
-                  <ChevronRight className="ml-2 h-4 w-4" />
+                  <ChevronRight className="ml-2 h-5 w-5" />
                 </Button>
                 <Button
                   onClick={() => window.location.href = '/consulting'}
+                  className="w-64"
                 >
-                  <Briefcase className="mr-2 h-4 w-4" />  
-                  Learn More About Community Consulting
-                  <ChevronRight className="ml-2 h-4 w-4" />
+                  <Briefcase className="mr-2 h-5 w-5" />  
+                  Learn About Community Consulting
+                  <ChevronRight className="ml-2 h-5 w-5" />
                 </Button>
               </div>
               </div>
@@ -107,7 +109,7 @@ const HomePage = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-            <Users className="h-8 w-8 text-red-500 mb-2" />
+            <Users className="h-6 w-6 text-red-500 mb-2" />
             <h3 className="text-xl font-bold text-red-500 mb-2">Guest Speakers & Workshops</h3>
             <p className="text-zinc-400">
               Delve into real-world AI applications and cutting-edge research through regular talks, workshops, and panel discussions with industry thought leaders. Gain insights into the latest trends and network with experts shaping the field.
@@ -115,7 +117,7 @@ const HomePage = () => {
           </div>
 
           <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-            <Trophy className="h-8 w-8 text-red-500 mb-2" />
+            <Trophy className="h-6 w-6 text-red-500 mb-2" />
             <h3 className="text-xl font-bold text-red-500 mb-2">Competitions & Conferences</h3>
             <p className="text-zinc-400">
               Represent the University of Arkansas on a national stage. From hackathons to global AI challenges, we secure sponsorships and provide resources to help members showcase their skills—and bring home top honors.
@@ -123,7 +125,7 @@ const HomePage = () => {
           </div>
 
           <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-            <Briefcase className="h-8 w-8 text-red-500 mb-2" />
+            <Briefcase className="h-6 w-6 text-red-500 mb-2" />
             <h3 className="text-xl font-bold text-red-500 mb-2">Community Consulting</h3>
             <p className="text-zinc-400">
               Partner with local nonprofits, startups, and small businesses to develop AI-driven solutions that elevate our community. Gain real-world experience, build your portfolio, and make a meaningful impact where it matters. 
@@ -131,7 +133,7 @@ const HomePage = () => {
           </div>
 
           <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-            <BookOpen className="h-8 w-8 text-red-500 mb-2" />
+            <BookOpen className="h-6 w-6 text-red-500 mb-2" />
             <h3 className="text-xl font-bold text-red-500 mb-2">Mentorship & Career Development</h3>
             <p className="text-zinc-400">
               Provide guidance and support for every stage of your AI journey—from résumé reviews 
@@ -142,7 +144,7 @@ const HomePage = () => {
           </div>
 
           <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-            <Brain className="h-8 w-8 text-red-500 mb-2" /> 
+            <Brain className="h-6 w-6 text-red-500 mb-2" /> 
             <h3 className="text-xl font-bold text-red-500 mb-2">Ethical AI & Social Impact</h3>
             <p className="text-zinc-400">
               Engage in discussions and initiatives that focus on the responsible use of artificial intelligence. 
@@ -152,7 +154,7 @@ const HomePage = () => {
           </div>
 
           <div className="bg-black/40 border border-red-900/50 backdrop-blur-md hover:border-red-500/50 transition-all duration-300 p-6 rounded-lg">
-            <Code className="h-8 w-8 text-red-500 mb-2" />
+            <Code className="h-6 w-6 text-red-500 mb-2" />
             <h3 className="text-xl font-bold text-red-500 mb-2">Hands-on Projects</h3>
             <p className="text-zinc-400">
               Work with cutting-edge tools, from advanced computing environments to the latest AI libraries and frameworks. Collaborate across different fields of study to brainstorm, prototype, and refine innovative solutions to real-world problems.
@@ -385,7 +387,7 @@ const HomePage = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <Briefcase className="h-8 w-8 text-red-500 mb-4" />
+              <Briefcase className="h-6 w-6 text-red-500 mb-4" />
               <h3 className="text-xl font-bold text-red-500 mb-3">Industry Connections</h3>
               <ul className="space-y-2 text-zinc-300">
                 <li>
@@ -403,7 +405,7 @@ const HomePage = () => {
               </ul>
             </div>
             <div>
-              <Brain className="h-8 w-8 text-red-500 mb-4" />
+              <Brain className="h-6 w-6 text-red-500 mb-4" />
               <h3 className="text-xl font-bold text-red-500 mb-3">Skill Development</h3>
               <ul className="space-y-2 text-zinc-300">
                 <li>
@@ -433,20 +435,25 @@ const HomePage = () => {
           <p className="text-zinc-300 mb-8 backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
             No matter your background—Walton College, Engineering, Data Science, or beyond—there's a place for you at the Arkansas AI Foundry. Join us in shaping the future of AI while propelling your career forward.
           </p>
-          <div className="flex justify-center space-x-4">
-          <Button 
-            onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
-             > 
-              <MessageCircle className="mr-2 h-4 w-4" />
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Button 
+              onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
+              className="w-48"
+            > 
+              <MessageCircle className="mr-2 h-5 w-5" />
               Join Our Groupme! 
             </Button>
-            <Button variant="outline">
+            <Button 
+              variant="outline"
+              className="w-48"
+            >
               Upcoming Events
             </Button>
             <Button 
-            onClick={() => window.open('mailto:arkansas.aifoundry@gmail.com', '_blank')}
-             > 
-              <MessageCircle className="mr-2 h-4 w-4" />
+              onClick={() => window.open('mailto:arkansas.aifoundry@gmail.com', '_blank')}
+              className="w-48"
+            > 
+              <MessageCircle className="mr-2 h-5 w-5" />
               Contact Us 
             </Button>
           </div>
