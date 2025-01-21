@@ -11,10 +11,7 @@ const ConsultingPage = () => {
 
       {/* Introduction */}
       <p className="mb-4">
-        Are you a local nonprofit, startup, or small-to-mid-size business
-        looking to leverage AI for a competitive edge—without draining your
-        budget? Let the Arkansas AI Foundry be your gateway to innovation, all
-        at <strong>no cost</strong> to you.
+      Are you a business seeking to harness the power of AI for a competitive edge—without breaking the bank? The Arkansas AI Foundry is your gateway to innovation, offering cutting-edge solutions at <strong>no cost</strong> to you.
       </p>
 
       {/* What We Offer */}
