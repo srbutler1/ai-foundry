@@ -74,7 +74,7 @@ const HomePage = () => {
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button
-                  onClick={() => window.open('https://arkansasaifoundry.com/consulting', '_blank')}
+                  onClick={() => window.location.href = '/consulting'}
                 >
                   <Briefcase className="mr-2 h-4 w-4" />  
                   Learn More About Community Consulting
