@@ -63,7 +63,7 @@ AI for sustainable growth and competitive advantage.`,
     date: "2024-01-22",
     content: `# Embracing the Next Industrial Revolution: Why the AI Foundry (An Open Letter to College Students)
 
-As I prepare for life after college, I think about the rapidly evolving world. The current technological revolution, referred to as "Industry 4.0", is a paradigm shift in how professionals operate. One of the most striking parallels is the First Industrial Revolution. If you've studied history, you know that our labor force in the United States shifted from 90% working on farms to 40% working on farms in less than 100 years. Now, less than 1.5% of our population is employed in direct on-farm labor.
+As I prepare for life after college, I think about the rapidly evolving world. The current technological revolution, referred to as "Industry 4.0", is a paradigm shift in how professionals operate. One of the most striking parallels is the First Industrial Revolution. If you've studied history, you know that our labor force in the United States shifted from 90% working on farms to 40% in less than 100 years. Now, less than 1.5% of our population is employed in direct on-farm labor.
 
 If we abstractly extrapolate that type of productivity growth to the present, the future is exciting, scary, cataclysmic, transformative, and mind-blowing---all at once. What jobs will disappear? How can students prepare for this rapidly shifting landscape?
 
