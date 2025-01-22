@@ -33,27 +33,19 @@ const SidebarLayout = () => {
   };
 
   return (
-    <div className="flex min-h-screen">
+    <div className="min-h-screen">
+      {/* Overlay */}
+      <div 
+        className={`fixed inset-0 bg-black/50 transition-opacity duration-300 ${
+          isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+        onClick={() => setIsOpen(false)}
+      />
+      
       {/* Sidebar */}
-      <div className={`fixed h-full w-64 backdrop-blur-md bg-black/5 border-r border-red-900/20 transition-all duration-300 shadow-lg ${
-        isOpen ? 'translate-x-0' : '-translate-x-48'
+      <div className={`fixed left-0 top-0 h-full w-64 backdrop-blur-md bg-black/80 border-r border-red-900/20 transition-all duration-300 shadow-lg z-50 ${
+        isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
-        {/* Visual handle for collapsed state */}
-        <div 
-          className={`sidebar-handle ${!isOpen ? 'sidebar-handle-pulse' : ''}`} 
-          onClick={toggleSidebar}
-        />
-        
-        {/* Toggle button */}
-        <button
-          onClick={toggleSidebar}
-          className={`absolute top-4 right-4 p-2 rounded-md hover:bg-black/40 transition-colors ${
-            !isOpen && 'animate-pulse'
-          }`}
-        >
-          <MenuIcon className="w-6 h-6 text-red-400" />
-        </button>
-
         <div className="p-4">
           <div className="mb-8">
             <Link to="/" className="flex items-center px-4 py-2">
@@ -90,7 +82,16 @@ const SidebarLayout = () => {
       </div>
       
       {/* Main content */}
-      <div className={`transition-all duration-300 ${isOpen ? 'ml-64' : 'ml-16'} flex-1`}>
+      <div className="flex-1">
+        <div className="fixed top-4 left-4 z-40">
+          <button
+            onClick={() => setIsOpen(true)}
+            className="p-2 rounded-md hover:bg-black/40 transition-colors bg-black/20"
+            aria-label="Open menu"
+          >
+            <MenuIcon className="w-6 h-6 text-red-400" />
+          </button>
+        </div>
         <Outlet />
       </div>
     </div>
