@@ -52,16 +52,27 @@ const SidebarLayout = () => {
       }`}>
         <div className="p-4">
           <div className="mb-8">
-            <Link to="/" className="flex items-center px-4 py-2">
-              <img 
-                src={foundryLogo} 
-                alt="AI Foundry Logo" 
-                className="w-8 h-8 mr-2"
-              />
-              <span className={`text-red-500 font-bold transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
-                AI Foundry
-              </span>
-            </Link>
+            <div className="flex items-center justify-between px-4 py-2">
+              <Link to="/" className="flex items-center">
+                <img 
+                  src={foundryLogo} 
+                  alt="AI Foundry Logo" 
+                  className="w-8 h-8 mr-2"
+                />
+                <span className={`text-red-500 font-bold transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
+                  AI Foundry
+                </span>
+              </Link>
+              {isOpen && (
+                <button
+                  onClick={toggleSidebar}
+                  className="p-2 rounded-md hover:bg-black/40 transition-colors"
+                  aria-label="Close menu"
+                >
+                  <MenuIcon className="w-6 h-6 text-red-400" />
+                </button>
+              )}
+            </div>
           </div>
           
           <nav className="space-y-2">
@@ -85,17 +96,21 @@ const SidebarLayout = () => {
         </div>
       </div>
       
-      {/* Main content */}
-      <div className="flex-1">
-        <div className="fixed top-4 left-4 z-40">
+      {/* Menu Button (only shown when sidebar is closed) */}
+      {!isOpen && (
+        <div className="fixed top-4 left-4 z-50">
           <button
-            onClick={() => setIsOpen(true)}
+            onClick={toggleSidebar}
             className="p-2 rounded-md hover:bg-black/40 transition-colors bg-black/20"
             aria-label="Open menu"
           >
             <MenuIcon className="w-6 h-6 text-red-400" />
           </button>
         </div>
+      )}
+
+      {/* Main content */}
+      <div className="flex-1">
         <Outlet />
       </div>
     </div>
