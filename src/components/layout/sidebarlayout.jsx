@@ -36,14 +36,18 @@ const SidebarLayout = () => {
     <div className="min-h-screen">
       {/* Overlay */}
       <div 
-        className={`fixed inset-0 bg-black/50 transition-opacity duration-300 ${
-          isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        className={`fixed inset-0 bg-black/50 transition-opacity duration-200 ${
+          isOpen ? 'opacity-100 cursor-pointer' : 'opacity-0 pointer-events-none'
         }`}
-        onClick={() => setIsOpen(false)}
+        onClick={(e) => {
+          e.stopPropagation();
+          setIsOpen(false);
+        }}
+        aria-hidden="true"
       />
       
       {/* Sidebar */}
-      <div className={`fixed left-0 top-0 h-full w-64 backdrop-blur-md bg-black/80 border-r border-red-900/20 transition-all duration-300 shadow-lg z-50 ${
+      <div className={`fixed left-0 top-0 h-full w-64 backdrop-blur-md bg-black/80 border-r border-red-900/20 transition-all duration-200 shadow-lg z-50 ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
         <div className="p-4">
