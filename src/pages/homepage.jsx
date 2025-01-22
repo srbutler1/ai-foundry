@@ -58,17 +58,17 @@ const HomePage = () => {
                 animation: 'contentFadeIn 1s ease-out forwards',
                 animationDelay: '3s',
                 opacity: 0
-              }}>
+              }} className="flex flex-col items-center">
                 <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
                   Arkansas AI Foundry
                 </h1>
                 <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
                   Bridging classroom learning with real-world AI innovation at the University of Arkansas
                 </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button
                   onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
-                  className="w-64"
+                  className="w-72"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />  
                   Join Our Community
@@ -76,10 +76,10 @@ const HomePage = () => {
                 </Button>
                 <Button
                   onClick={() => window.location.href = '/consulting'}
-                  className="w-64"
+                  className="w-72"
                 >
                   <Briefcase className="mr-2 h-5 w-5" />  
-                  Learn About Community Consulting
+                  Community Consulting
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </Button>
               </div>
@@ -435,23 +435,23 @@ const HomePage = () => {
           <p className="text-zinc-300 mb-8 backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
             No matter your background—Walton College, Engineering, Data Science, or beyond—there's a place for you at the Arkansas AI Foundry. Join us in shaping the future of AI while propelling your career forward.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">
             <Button 
               onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
-              className="w-48"
+              className="w-72"
             > 
               <MessageCircle className="mr-2 h-5 w-5" />
               Join Our Groupme! 
             </Button>
             <Button 
               variant="outline"
-              className="w-48"
+              className="w-72"
             >
               Upcoming Events
             </Button>
             <Button 
               onClick={() => window.open('mailto:arkansas.aifoundry@gmail.com', '_blank')}
-              className="w-48"
+              className="w-72"
             > 
               <MessageCircle className="mr-2 h-5 w-5" />
               Contact Us 
