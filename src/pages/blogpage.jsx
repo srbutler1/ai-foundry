@@ -96,7 +96,9 @@ const BlogPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedPostId, setExpandedPostId] = useState(null);
 
-  const filteredPosts = blogPosts.filter(post =>
+  const filteredPosts = blogPosts
+    .sort((a, b) => new Date(b.date) - new Date(a.date))  // Sort by date, most recent first
+    .filter(post =>
     post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     post.content.toLowerCase().includes(searchTerm.toLowerCase()) ||
     post.author.toLowerCase().includes(searchTerm.toLowerCase()) ||
