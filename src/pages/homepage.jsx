@@ -341,6 +341,45 @@ const HomePage = () => {
                 <div className="relative">
                   <div className="absolute top-4 right-4">
                     <img
+                      src="/images/bill-headshot.jpg"
+                      alt="Mr. Bill Akins"
+                      width="80"
+                      height="80"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                    />
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-red-500">Mr. Bill Akins</h4>
+                  <p className="text-zinc-400 mb-2">Walton College of Business</p>
+                  <p className="text-zinc-400 mb-4">Marketing Lecturer</p>
+                  <p className="text-zinc-300">
+                    With over 25 years in digital and physical retail technology, Bill Akins brings extensive industry experience to the Walton College. Beginning his career as an intern with Apple, he held leadership roles at Walmart and VMLY&R/Rockfish. He holds an MBA from the Sam M. Walton College of Business and has completed programs at Stanford, MIT, Emory University, Georgia Tech, and Cornell University. A mentor for startups in AI and ML, his book "Innovative Leadership" became a bestseller in Summer 2024. He teaches Honors Intro to Marketing and has been with the Department of Marketing since Spring 2023.
+                  </p>
+                  <div className="mt-4 flex space-x-4">
+                    <a 
+                      href="https://walton.uark.edu/departments/marketing/directory/uid/wakins/name/Bill+Akins/" 
+                      className="text-red-400 hover:text-red-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Faculty Page
+                    </a>
+                    <a 
+                      href="mailto:wakins@uark.edu" 
+                      className="text-red-400 hover:text-red-300"
+                    >
+                      Email
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Advisor 3 */}
+              <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                <div className="relative">
+                  <div className="absolute top-4 right-4">
+                    <img
                       src="#"
                       alt="Mr. Michael Cawthon"
                       width="80"
