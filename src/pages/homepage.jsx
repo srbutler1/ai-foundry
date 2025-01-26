@@ -339,14 +339,14 @@ const HomePage = () => {
               {/* Advisor 2 */}
               <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                 <div className="relative">
-                  <div className="absolute top-4 right-4">
+                  <div className="absolute top-4 right-4 w-20 h-20">   
                     <img
                       src="/images/bill-headshot.jpg"
                       alt="Mr. Bill Akins"
                       width="80"
                       height="80"
                       className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
-                    />
+                      />
                   </div>
                 </div>
                 <div className="p-6">
