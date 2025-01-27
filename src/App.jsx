@@ -20,9 +20,9 @@ function App() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <meta property="og:url" content="https://arkansasaifoundry.com" />
+        <meta property="og:url" content="https://arkansasaifoundry.org" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://arkansasaifoundry.com" />
+        <link rel="canonical" href="https://arkansasaifoundry.org" />
       </Helmet>
       <div className="min-h-screen text-white">
         <Routes>

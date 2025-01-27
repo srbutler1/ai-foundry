@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && echo \"arkansasaifoundry.com\" > dist/CNAME",
+    "predeploy": "npm run build && echo \"arkansasaifoundry.org\" > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
