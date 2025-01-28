@@ -10,12 +10,24 @@
       radial-gradient(white 1px, transparent 1px);
     background-size: 50px 50px;
     mask-image: radial-gradient(circle at center, black 0%, transparent 80%);
+    contain: paint;
   }
 
   .red-glow {
     @apply fixed inset-0 -z-10;
     background: radial-gradient(circle at center, rgba(229, 62, 62, 0.15) 0%, transparent 70%);
     animation: glowPulse 4s ease-in-out infinite;
+    will-change: opacity;
+    transform: translateZ(0);
+    contain: paint;
+  }
+
+  .contain-paint {
+    contain: paint;
+  }
+
+  .contain-layout {
+    contain: layout;
   }
 }
 
@@ -25,42 +37,45 @@ body {
 
 @keyframes heroFloat {
   0% {
-    transform: translateY(20px) scale(2);
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
   }
   100% {
-    transform: translateY(0) scale(1);
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes contentFadeIn {
   0% {
+    transform: translate3d(0, 20px, 0);
     opacity: 0;
-    transform: translateY(20px);
   }
   100% {
+    transform: translate3d(0, 0, 0);
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
 @keyframes glowPulse {
   0% {
     opacity: 0.4;
-    box-shadow: 0 0 20px #E31837, 0 0 40px #E31837;
   }
   50% {
     opacity: 0.8;
-    box-shadow: 0 0 40px #E31837, 0 0 60px #E31837;
   }
   100% {
     opacity: 0.4;
-    box-shadow: 0 0 20px #E31837, 0 0 40px #E31837;
   }
 }
 
 @keyframes borderFlow {
   0% {
     background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
   }
   100% {
     background-position: 200% 0%;

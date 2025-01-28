@@ -10,55 +10,35 @@ const HomePage = () => {
       <div className="star-background" />
       <div className="red-glow" />
 
-      {/* Animated Borders */}
-      <div className="absolute inset-x-0 top-0 h-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-red-500 to-transparent" 
-        style={{
-          backgroundSize: '200% 100%',
-          animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
-        }}
-      />
-      <div className="absolute inset-x-0 bottom-0 h-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-red-500 to-transparent"
-        style={{
-          backgroundSize: '200% 100%',
-          animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
-        }}
-      />
-      <div className="absolute inset-y-0 left-0 w-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-b from-transparent via-red-500 to-transparent"
-        style={{
-          backgroundSize: '100% 200%',
-          animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
-        }}
-      />
-      <div className="absolute inset-y-0 right-0 w-[2px] animate-[glowPulse_3s_ease-in-out_infinite] bg-gradient-to-b from-transparent via-red-500 to-transparent"
-        style={{
-          backgroundSize: '100% 200%',
-          animation: 'borderFlow 3s linear infinite, glowPulse 2s ease-in-out infinite'
-        }}
-      />
       <div className="relative">
         {/* Hero Section */}
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden contain-paint">
           <div className="container mx-auto px-4 py-24">
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center contain-layout">
               {/* Logo with hero animation */}
-              <div className="relative mb-8"
-                style={{
-                  animation: 'heroFloat 4s ease-out forwards'
-                }}>
-                <div className="absolute inset-0 animate-pulse bg-red-500/20 blur-xl rounded-full" />
+              <div className="relative mb-8 contain-paint">
                 <img 
                   src={foundryLogo} 
                   alt="Arkansas AI Foundry Logo" 
                   className="relative z-10 w-48 h-48 object-contain"
+                  style={{
+                    animation: 'heroFloat 4s ease-in-out infinite',
+                    willChange: 'transform',
+                    backfaceVisibility: 'hidden'
+                  }}
                 />
               </div>
 
               {/* Content that fades in after logo animation */}
-              <div style={{
-                animation: 'contentFadeIn 1s ease-out forwards',
-                animationDelay: '3s',
-                opacity: 0
-              }} className="flex flex-col items-center">
+              <div 
+                className="flex flex-col items-center"
+                style={{
+                  animation: 'contentFadeIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards',
+                  opacity: 0,
+                  willChange: 'transform, opacity',
+                  backfaceVisibility: 'hidden'
+                }}
+              >
                 <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
                   Arkansas AI Foundry
                 </h1>

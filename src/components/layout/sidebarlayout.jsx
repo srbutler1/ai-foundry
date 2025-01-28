@@ -17,7 +17,10 @@ const SidebarLink = ({ to, icon: Icon, children, isOpen }) => {
       }`}
     >
       <Icon className="w-5 h-5 mr-3" />
-      <span className={`transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
+      <span 
+        className={`transition-opacity duration-200 ${isOpen ? 'opacity-100' : 'opacity-0'}`}
+        style={{ willChange: 'opacity' }}
+      >
         {children}
       </span>
       {isActive && isOpen && <ChevronRight className="w-4 h-4 ml-auto" />}
@@ -47,9 +50,12 @@ const SidebarLayout = () => {
       />
       
       {/* Sidebar */}
-      <div className={`fixed left-0 top-0 h-full w-64 backdrop-blur-md bg-black/80 border-r border-red-900/20 transition-all duration-200 shadow-lg z-50 ${
-        isOpen ? 'translate-x-0' : '-translate-x-full'
-      }`}>
+      <div 
+        className={`fixed left-0 top-0 h-full w-64 bg-black/90 border-r border-red-900/20 transform transition-transform duration-200 shadow-lg z-50 ${
+          isOpen ? 'translate-x-0' : '-translate-x-full'
+        }`}
+        style={{ willChange: 'transform' }}
+      >
         <div className="p-4">
           <div className="mb-8">
             <div className="flex items-center justify-between px-4 py-2">
@@ -59,7 +65,10 @@ const SidebarLayout = () => {
                   alt="AI Foundry Logo" 
                   className="w-8 h-8 mr-2"
                 />
-                <span className={`text-red-500 font-bold transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
+                <span 
+                className={`text-red-500 font-bold transition-opacity duration-200 ${isOpen ? 'opacity-100' : 'opacity-0'}`}
+                style={{ willChange: 'opacity' }}
+              >
                   AI Foundry
                 </span>
               </Link>
@@ -88,7 +97,10 @@ const SidebarLayout = () => {
           <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-red-900/20">
             <div className="flex items-center text-sm text-zinc-400">
               <Brain className="w-4 h-4 mr-2" />
-              <span className={`transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
+              <span 
+                className={`transition-opacity duration-200 ${isOpen ? 'opacity-100' : 'opacity-0'}`}
+                style={{ willChange: 'opacity' }}
+              >
                 Arkansas AI Foundry
               </span>
             </div>
