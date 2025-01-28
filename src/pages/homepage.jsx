@@ -1,38 +1,34 @@
 import React from 'react';
 import { Brain, Users, BookOpen, MessageCircle, ChevronRight, Trophy, Briefcase, Code } from 'lucide-react';
 import { Button } from '../components/ui/button';
-import foundryLogo from '../assets/foundry-logo.png';
+import Logo from '../components/ui/logo';
 
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen text-white">
       {/* Background */}
-      <div className="star-background" />
-      <div className="red-glow" />
+      <div className="star-background hero-content" />
+      <div className="red-glow hero-content" />
 
       <div className="relative">
         {/* Hero Section */}
         <div className="relative overflow-hidden contain-paint">
-          <div className="container mx-auto px-4 py-24">
-            <div className="flex flex-col items-center text-center contain-layout">
+          <div className="container mx-auto px-4 pt-32 pb-16">
+            <div className="flex flex-col items-center text-center space-y-12">
               {/* Logo with hero animation */}
-              <div className="relative mb-8 contain-paint">
-                <img 
-                  src={foundryLogo} 
-                  alt="Arkansas AI Foundry Logo" 
-                  className="relative z-10 w-48 h-48 object-contain"
-                />
-              </div>
+              <Logo />
 
               {/* Content that fades in after logo animation */}
-              <div className="flex flex-col items-center">
-                <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
-                  Arkansas AI Foundry
-                </h1>
-                <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
-                  Bridging classroom learning with real-world AI innovation at the University of Arkansas
-                </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="flex flex-col items-center mt-8">
+                <div className="hero-content">
+                  <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
+                    Arkansas AI Foundry
+                  </h1>
+                  <p className="text-2xl mb-8 text-zinc-300 max-w-2xl">
+                    Bridging classroom learning with real-world AI innovation at the University of Arkansas
+                  </p>
+                </div>
+                <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button
                   onClick={() => window.open('https://groupme.com/join_group/105347053/9oA8jhjn', '_blank')}
                   className="w-72"
