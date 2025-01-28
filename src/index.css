@@ -35,29 +35,6 @@ body {
   @apply bg-[#030308] overflow-x-hidden;
 }
 
-@keyframes heroFloat {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(0, -10px, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes contentFadeIn {
-  0% {
-    transform: translate3d(0, 20px, 0);
-    opacity: 0;
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-}
-
 @keyframes glowPulse {
   0% {
     opacity: 0.4;

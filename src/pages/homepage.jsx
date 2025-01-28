@@ -21,24 +21,11 @@ const HomePage = () => {
                   src={foundryLogo} 
                   alt="Arkansas AI Foundry Logo" 
                   className="relative z-10 w-48 h-48 object-contain"
-                  style={{
-                    animation: 'heroFloat 4s ease-in-out infinite',
-                    willChange: 'transform',
-                    backfaceVisibility: 'hidden'
-                  }}
                 />
               </div>
 
               {/* Content that fades in after logo animation */}
-              <div 
-                className="flex flex-col items-center"
-                style={{
-                  animation: 'contentFadeIn 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards',
-                  opacity: 0,
-                  willChange: 'transform, opacity',
-                  backfaceVisibility: 'hidden'
-                }}
-              >
+              <div className="flex flex-col items-center">
                 <h1 className="text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-red-500 to-red-900">
                   Arkansas AI Foundry
                 </h1>
