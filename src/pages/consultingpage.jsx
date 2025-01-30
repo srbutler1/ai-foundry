@@ -146,10 +146,10 @@ const ConsultingPage = () => {
             <p className="text-zinc-300">
               Have questions? Email us at{' '}
               <a
-                href="mailto:arkansas.aifoundry@gmail.com"
+                href="mailto:sam@arkansasaifoundry.org"
                 className="text-red-400 hover:text-red-300"
               >
-                arkansas.aifoundry@gmail.com
+                sam@arkansasaifoundry.org
               </a>{' '}
               or call us at{' '}
               <a href="tel:+19137478659" className="text-red-400 hover:text-red-300">

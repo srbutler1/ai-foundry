@@ -169,7 +169,7 @@ const HomePage = () => {
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a href="https://www.linkedin.com/in/sam-butler1/" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                    <a href="mailto:sbutler@walton.uark.edu" className="text-red-400 hover:text-red-300">Email</a>
+                    <a href="mailto:sam@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
                   </div>
                 </div>
               </div>
@@ -195,7 +195,7 @@ const HomePage = () => {
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a href="https://www.linkedin.com/in/noahhertlein/" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                    <a href="mailto:nahertle@uark.edu" className="text-red-400 hover:text-red-300">Email</a>
+                    <a href="mailto:noah@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
                   </div>
                 </div>
               </div>
@@ -249,7 +249,7 @@ const HomePage = () => {
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a href="https://www.linkedin.com/in/hector-thomas-negron" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                    <a href="mailto:htnegron@uark.edu" className="text-red-400 hover:text-red-300">Email</a>
+                    <a href="mailto:hector@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
                   </div>
                 </div>
               </div>
@@ -290,7 +290,7 @@ const HomePage = () => {
                       Faculty Page
                     </a>
                     <a 
-                      href="mailto:xzhang@walton.uark.edu" 
+                      href="mailto:cinder@arkansasaifoundry.org" 
                       className="text-red-400 hover:text-red-300"
                     >
                       Email
@@ -452,7 +452,7 @@ const HomePage = () => {
               Upcoming Events
             </Button>
             <Button 
-              onClick={() => window.open('mailto:arkansas.aifoundry@gmail.com', '_blank')}
+              onClick={() => window.open('mailto:sam@arkansasaifoundry.org', '_blank')}
               className="w-72"
             > 
               <MessageCircle className="mr-2 h-5 w-5" />
@@ -477,7 +477,7 @@ const HomePage = () => {
                 GroupMe
               </a>
               <a 
-                href="mailto:arkansas.aifoundry@gmail.com" 
+                href="mailto:sam@arkansasaifoundry.org" 
                 className="text-red-400 hover:text-red-300"
                 target="_blank"
                 rel="noopener noreferrer"
