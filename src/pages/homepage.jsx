@@ -59,11 +59,7 @@ const HomePage = () => {
             Where Business Meets AI Innovation
           </h2>
           <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-            The Arkansas AI Foundry unites forward-thinking students from Walton College and across 
-            diverse disciplines to push the boundaries of artificial intelligence. By combining 
-            hands-on projects, strong industry partnerships, and a collaborative learning environment, 
-            we're shaping tomorrow's leaders in AI. Whether you're a seasoned coder or simply curious 
-            about the possibilities of AI, the Foundry invites you to join us in forging the future of innovation.
+          The Arkansas AI Foundry is a nonprofit in formation, dedicated to bridging the technological divide by uniting forward-thinking students from diverse disciplines to push the boundaries of artificial intelligence. Through consulting services, strong industry partnerships, and a hands-on, collaborative learning environment, we empower individuals and organizations alike to harness AI for real-world impact. Join us in forging an inclusive and innovative future.
           </p>
         </div>
       </div>
