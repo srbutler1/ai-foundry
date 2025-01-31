@@ -352,7 +352,7 @@ const HomePage = () => {
                   <p className="text-zinc-400 mb-2">Walton College</p>
                   <p className="text-zinc-400 mb-4">Economics Lecturer</p>
                   <p className="text-zinc-300">
-                    Insert bio here.
+                  Michael serves as Founder and Portfolio Manager of Indra Capital Partners, a quantitatively driven asset manager.  Previously, he was co-founder and Chief Investment Officer for Green Street Energy, an owner operator of commercial-scale solar energy assets.  Before that, he was with Goldman Sachs in New York in the Structured Products division, with oversight for various mortgage trading businesses.  He began with GS in 2000 after graduate school at the University of Chicago, from which he received a Master’s Degree in Financial Mathematics.  He holds an undergraduate degree in Economics from the University of Arkansas.
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a 
