@@ -201,10 +201,10 @@ const HomePage = () => {
               {/* Treasurer */}
               <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                 <div className="relative">
-                  <div className="absolute top-4 right-4">
+                  <div className="absolute top-4 right-4 w-20 h-20">
                     <img
-                      src="#"
-                      alt="Treasurer"
+                      src="/images/kaylieo@uark.edu-b3418a5d.jpg"
+                      alt="Kaylie Oneal - Treasurer"
                       width="80"
                       height="80"
                       className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
@@ -212,15 +212,42 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-red-500">Looking for a Treasurer!</h4>
-                  <p className="text-zinc-400 mb-4">[Treasurer]</p>
-                  <p className="text-zinc-300 mb-4">[Major/Junior, Sophmore]</p>
+                  <h4 className="text-xl font-bold text-red-500">Kaylie Oneal</h4>
+                  <p className="text-zinc-400 mb-4">Treasurer</p>
+                  <p className="text-zinc-300 mb-4">Junior</p>
                   <p className="text-zinc-300">
-                    Please reach out to Sam if you're interested in the Treasurer position! (Seeking a junior or below) 
+                    [Bio coming soon]
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                    <a href="#" className="text-red-400 hover:text-red-300">Email</a>
+                    <a href="mailto:kaylie@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Secretary */}
+              <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                <div className="relative">
+                  <div className="absolute top-4 right-4 w-20 h-20">
+                    <img
+                      src="/images/ConnorDurbin-Headshot.jpeg"
+                      alt="Connor Durbin - Secretary"
+                      width="80"
+                      height="80"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                    />
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-red-500">Connor Durbin</h4>
+                  <p className="text-zinc-400 mb-4">Secretary</p>
+                  <p className="text-zinc-300 mb-4">Data Science | Junior</p>
+                  <p className="text-zinc-300">
+                    Connor is inspired by the ability of AI to transform industries and how it is currently redefining the future. As a Data Science major specializing in business analytics, he loves tackling complex challenges and developing creative solutions. His experience includes developing an app for a nonprofit and working with leading retailers to optimize their sales strategies. Outside of his studies, Connor enjoys playing golf and cooking good food.
+                  </p>
+                  <div className="mt-4 flex space-x-4">
+                    <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                    <a href="mailto:connor@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
                   </div>
                 </div>
               </div>

@@ -40,7 +40,7 @@ const EventPopup = () => {
         <div className="bg-black/40 border border-red-900/50 p-4 rounded-lg mb-6">
           <p className="text-zinc-300">
             <strong>Date:</strong> February 13th<br />
-            <strong>Location:</strong> Reynolds Center - 120<br />
+            <strong>Location:</strong> Reynolds Center - 120, 145 N Buchanan Ave Fayetteville, AR 72701<br />
             <strong>Time:</strong> 6 PM
           </p>
         </div>

@@ -26,7 +26,7 @@ const Modal = ({ isOpen, onClose, children }) => {
 const EventBanner = () => (
   <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-4 mt-4">
     <p className="text-red-400 text-sm font-medium">
-      🎉 Join us at our first in-person event to learn more about DeepSeek and the future of AI!
+      🎉 Join us at our first in-person event to learn more about DeepSeek and the future of AI! Click the article to learn more!
     </p>
   </div>
 );
@@ -40,9 +40,9 @@ const EventModal = ({ onClose }) => (
     <div className="space-y-4">
       <div className="bg-black/40 rounded p-4">
         <h4 className="text-red-400 font-medium mb-2">Event Details</h4>
-        <p className="text-zinc-300">Date: TBD</p>
-        <p className="text-zinc-300">Time: TBD</p>
-        <p className="text-zinc-300">Location: TBD</p>
+        <p className="text-zinc-300">Date: 2/13/2025</p>
+        <p className="text-zinc-300">Time: 6:00pm - 7:00pm</p>
+        <p className="text-zinc-300">Location: Reyonlds Center Auditorium Room 120, 145 N Buchanan Ave Fayetteville, AR 72701</p>
       </div>
     </div>
   </div>
