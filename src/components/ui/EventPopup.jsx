@@ -45,27 +45,19 @@ const EventPopup = () => {
           </p>
         </div>
         
-        <button
-          onClick={() => {
-            // Track the click event
-            const eventData = {
-              eventName: 'event_rsvp',
-              eventTitle: 'Is DeepSeek the Next Big Thing?',
-              timestamp: new Date().toISOString(),
-              eventDate: 'February 13th',
-              location: 'Reynolds Center - 120'
-            };
-            
-            // Log to console for now - can be replaced with actual analytics service
-            console.log('Event RSVP tracked:', eventData);
-            
-            // Close the popup
-            setIsOpen(false);
-          }}
-          className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 text-white font-bold py-2 px-4 rounded transition-all duration-300"
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSekIZCNIuUeLjcsTo_zOJBj3Yd0a8ciuLTX_akmv1rlxD3tkg/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setIsOpen(false)}
+          className="block w-full"
         >
-          I'll Be There!
-        </button>
+          <button
+            className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 text-white font-bold py-2 px-4 rounded transition-all duration-300"
+          >
+            I'll Be There!
+          </button>
+        </a>
       </div>
     </div>
   );
