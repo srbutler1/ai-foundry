@@ -59,7 +59,7 @@ const HomePage = () => {
             Where Business Meets AI Innovation
           </h2>
           <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-          The Arkansas AI Foundry is a nonprofit in formation, dedicated to bridging the technological divide by uniting forward-thinking students from diverse disciplines to push the boundaries of artificial intelligence. Through consulting services, strong industry partnerships, and a hands-on, collaborative learning environment, we empower individuals and organizations alike to harness AI for real-world impact. Join us in forging an inclusive and innovative future.
+          The Arkansas AI Foundry is a nonprofit organization, dedicated to bridging the technological divide by uniting forward-thinking students from diverse disciplines to push the boundaries of artificial intelligence. Through consulting services, strong industry partnerships, and a hands-on, collaborative learning environment, we empower individuals and organizations alike to harness AI for real-world impact. Join us in forging an inclusive and innovative future.
           </p>
         </div>
       </div>
