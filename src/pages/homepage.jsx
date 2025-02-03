@@ -2,10 +2,12 @@ import React from 'react';
 import { Brain, Users, BookOpen, MessageCircle, ChevronRight, Trophy, Briefcase, Code } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import Logo from '../components/ui/logo';
+import EventPopup from '../components/ui/EventPopup';
 
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen text-white">
+      <EventPopup />
       {/* Background */}
       <div className="star-background hero-content" />
       <div className="red-glow hero-content" />
@@ -128,8 +130,8 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800">
             Upcoming Events
           </h2>
-          <p className="text-2xl text-zinc-300 mb-4">Exciting things to come!</p>
-          <p className="text-zinc-400">Check back soon for our upcoming events and workshops.</p>
+<p className="text-2xl text-zinc-300 mb-4"> February 13th: Is DeepSeek the Next Big Thing?</p>
+<p className="text-zinc-400">Join us on February 13th at 6PM in the Reynolds Cengter - 120 for an introduction to the foundry and explore the potential of DeepSeek.</p>
         </div>
       </div>
 
