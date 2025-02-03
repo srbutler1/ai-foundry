@@ -131,7 +131,7 @@ const HomePage = () => {
             Upcoming Events
           </h2>
 <p className="text-2xl text-zinc-300 mb-4"> February 13th: Is DeepSeek the Next Big Thing?</p>
-<p className="text-zinc-400">Join us on February 13th at 6PM in the Reynolds Cengter - 120 for an introduction to the foundry and explore the potential of DeepSeek.</p>
+<p className="text-zinc-400">Join us on February 13th at 6PM in the Reynolds Center - 120 for an introduction to the foundry and explore the potential of DeepSeek.</p>
         </div>
       </div>
 
