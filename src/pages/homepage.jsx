@@ -125,7 +125,7 @@ const HomePage = () => {
       </div>
 
       {/* Upcoming Events */}
-      <div className="container mx-auto px-4 py-16">
+      <div id="upcoming-events" className="container mx-auto px-4 py-16">
         <div className="bg-black/40 border border-red-900/50 backdrop-blur-md p-8 rounded-lg text-center">
           <h2 className="text-3xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800">
             Upcoming Events
@@ -198,6 +198,33 @@ const HomePage = () => {
                 </div>
               </div>
 
+              {/* VP of Data Science */}
+              <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
+                <div className="relative">
+                  <div className="absolute top-4 right-4 w-20 h-20">
+                    <img
+                      src="/images/Hector_Headshot.jpeg"
+                      alt="Hector Negron - VP of Data Science"
+                      width="80"
+                      height="80"
+                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
+                    />
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-red-500">Hector Negron</h4>
+                  <p className="text-zinc-400 mb-4">VP of Data Science</p>
+                  <p className="text-zinc-300 mb-4">Data Science | Senior</p>
+                  <p className="text-zinc-300">
+                  Hector thrives on creating innovative and data-driven solutions to complex challenges. He's currently captain of the Arkansas Men's Lacrosse team and working on an honors thesis utilizing statistical models for retail space-allocation. Hector is passionate about forming meaningful relationships within his communities. Some of his interests are strength & conditioning, cars, and mma. 
+                  </p>
+                  <div className="mt-4 flex space-x-4">
+                    <a href="https://www.linkedin.com/in/hector-thomas-negron" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                    <a href="mailto:hector@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
+                  </div>
+                </div>
+              </div>
+
               {/* Treasurer */}
               <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
                 <div className="relative">
@@ -214,12 +241,12 @@ const HomePage = () => {
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-red-500">Kaylie Oneal</h4>
                   <p className="text-zinc-400 mb-4">Treasurer</p>
-                  <p className="text-zinc-300 mb-4">Junior</p>
+                  <p className="text-zinc-300 mb-4">Finance | Junior</p>
                   <p className="text-zinc-300">
-                    [Bio coming soon]
+                    Kaylie is passionate about FinTech and the incredible potential of artificial intelligence in our lives and careers. She currently serves as an Administrative Specialist in the Department of Economics and Management at the Walton College of Business and is actively involved in various campus clubs. Outside of academia, Kaylie enjoys creative projects and engaging with her local community.
                   </p>
                   <div className="mt-4 flex space-x-4">
-                    <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/kaylie-oneal-447715293/" className="text-red-400 hover:text-red-300">LinkedIn</a>
                     <a href="mailto:kaylie@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
                   </div>
                 </div>
@@ -246,35 +273,8 @@ const HomePage = () => {
                     Connor is inspired by the ability of AI to transform industries and how it is currently redefining the future. As a Data Science major specializing in business analytics, he loves tackling complex challenges and developing creative solutions. His experience includes developing an app for a nonprofit and working with leading retailers to optimize their sales strategies. Outside of his studies, Connor enjoys playing golf and cooking good food.
                   </p>
                   <div className="mt-4 flex space-x-4">
-                    <a href="#" className="text-red-400 hover:text-red-300">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/connor-durbin-52b975252/" className="text-red-400 hover:text-red-300">LinkedIn</a>
                     <a href="mailto:connor@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
-                  </div>
-                </div>
-              </div>
-
-              {/* VP of Data Science */}
-              <div className="bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300">
-                <div className="relative">
-                  <div className="absolute top-4 right-4 w-20 h-20">
-                    <img
-                      src="/images/Hector_Headshot.jpeg"
-                      alt="Hector Negron - VP of Data Science"
-                      width="80"
-                      height="80"
-                      className="absolute top-0 right-0 w-20 h-20 rounded-full object-cover border-2 border-red-500"
-                    />
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h4 className="text-xl font-bold text-red-500">Hector Negron</h4>
-                  <p className="text-zinc-400 mb-4">VP of Data Science</p>
-                  <p className="text-zinc-300 mb-4">Data Science | Senior</p>
-                  <p className="text-zinc-300">
-                  Hector thrives on creating innovative and data-driven solutions to complex challenges. He's currently captain of the Arkansas Men's Lacrosse team and working on an honors thesis utilizing statistical models for retail space-allocation. Hector is passionate about forming meaningful relationships within his communities. Some of his interests are strength & conditioning, cars, and mma. 
-                  </p>
-                  <div className="mt-4 flex space-x-4">
-                    <a href="https://www.linkedin.com/in/hector-thomas-negron" className="text-red-400 hover:text-red-300">LinkedIn</a>
-                    <a href="mailto:hector@arkansasaifoundry.org" className="text-red-400 hover:text-red-300">Email</a>
                   </div>
                 </div>
               </div>
@@ -473,6 +473,7 @@ const HomePage = () => {
             <Button 
               variant="outline"
               className="w-72"
+              onClick={() => document.getElementById('upcoming-events').scrollIntoView({ behavior: 'smooth' })}
             >
               Upcoming Events
             </Button>
