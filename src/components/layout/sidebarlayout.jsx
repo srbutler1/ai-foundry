@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
-import { Link, useLocation, Outlet } from 'react-router-dom';
-import { Brain, MessageCircle, ChevronRight, Briefcase, MenuIcon } from 'lucide-react';
+import { Link, useLocation, useNavigate, Outlet } from 'react-router-dom';
+import { Brain, MessageCircle, ChevronRight, Briefcase, MenuIcon, Calendar } from 'lucide-react';
 import foundryLogo from '../../assets/foundry-logo.png';
 
-const SidebarLink = ({ to, icon: Icon, children, isOpen }) => {
+const SidebarLink = ({ to, icon: Icon, children, isOpen, onClick }) => {
   const location = useLocation();
   const isActive = location.pathname === to;
   
+  const Component = onClick ? 'button' : Link;
+  const componentProps = onClick ? { onClick } : { to };
+  
   return (
-    <Link 
-      to={to}
-      className={`flex items-center px-4 py-2 rounded-md transition-colors ${
+    <Component 
+      {...componentProps}
+      className={`flex items-center px-4 py-2 rounded-md transition-colors w-full text-left ${
         isActive 
           ? 'bg-gradient-to-r from-red-500/20 to-transparent text-red-400' 
           : 'text-zinc-400 hover:text-red-400 hover:bg-black/40'
@@ -24,12 +27,13 @@ const SidebarLink = ({ to, icon: Icon, children, isOpen }) => {
         {children}
       </span>
       {isActive && isOpen && <ChevronRight className="w-4 h-4 ml-auto" />}
-    </Link>
+    </Component>
   );
 };
 
 const SidebarLayout = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
@@ -90,6 +94,19 @@ const SidebarLayout = () => {
             </SidebarLink>
             <SidebarLink to="/consulting" icon={Briefcase} isOpen={isOpen}>
               Consulting
+            </SidebarLink>
+            <SidebarLink 
+              icon={Calendar} 
+              isOpen={isOpen}
+              onClick={() => {
+                navigate('/');
+                setTimeout(() => {
+                  document.getElementById('upcoming-events').scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+                setIsOpen(false);
+              }}
+            >
+              Upcoming Events
             </SidebarLink>
           </nav>
           
