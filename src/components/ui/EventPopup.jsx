@@ -16,18 +16,24 @@ const EventPopup = () => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-      <div className="relative bg-black/90 border border-red-900/50 backdrop-blur-md p-8 rounded-lg max-w-5xl w-full text-white">
+    <div className="fixed inset-0 z-50 flex flex-col bg-black/50 backdrop-blur-sm">
+      {/* Fixed header with close button */}
+      <div className="sticky top-0 z-50 w-full bg-black/90 border-b border-red-900/50 p-4 flex justify-end">
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute top-4 right-4 text-zinc-400 hover:text-white transition-colors"
+          className="text-zinc-400 hover:text-white transition-colors"
+          aria-label="Close popup"
         >
           <X className="h-6 w-6" />
         </button>
+      </div>
 
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left side: Event Information */}
-          <div className="flex-1">
+      {/* Scrollable content */}
+      <div className="flex-1 overflow-y-auto p-4">
+        <div className="bg-black/90 border border-red-900/50 backdrop-blur-md p-6 rounded-lg max-w-5xl mx-auto w-full text-white">
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Left side: Event Information */}
+            <div className="flex-1">
             <h2 className="text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800">
               Join Us for Our First Event!
             </h2>
@@ -77,15 +83,16 @@ const EventPopup = () => {
                 </button>
               </a>
             </div>
-          </div>
+            </div>
 
-          {/* Right side: Flyer Image */}
-          <div className="flex-1">
-            <img 
-              src="/images/deepseek-event-flyer.png" 
-              alt="DeepSeek Event Flyer" 
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
+            {/* Right side: Flyer Image */}
+            <div className="flex-1">
+              <img 
+                src="/images/deepseek-event-flyer.png" 
+                alt="DeepSeek Event Flyer" 
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
