@@ -358,9 +358,9 @@ const HomePage = () => {
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-red-500">Mr. Bill Akins</h4>
                   <p className="text-zinc-400 mb-2">Walton College of Business</p>
-                  <p className="text-zinc-400 mb-4">Marketing Lecturer</p>
+                  <p className="text-zinc-400 mb-4">Applicable AI and Digital Marketing Lecturer</p>
                   <p className="text-zinc-300">
-                    With over 25 years in digital and physical retail technology, Bill Akins brings extensive industry experience to the Walton College. Beginning his career as an intern with Apple, he held leadership roles at Walmart and VMLY&R/Rockfish. He holds an MBA from the Sam M. Walton College of Business and has completed programs at Stanford, MIT, Emory University, Georgia Tech, and Cornell University. A mentor for startups in AI and ML, his book "Innovative Leadership" became a bestseller in Summer 2024. He teaches Honors Intro to Marketing and has been with the Department of Marketing since Spring 2023.
+                    With over 25 years of experience in digital and physical retail technology, Bill Akins is a seasoned industry leader contributing his expertise to the Walton College. His career began as an intern at Apple, leading to leadership roles at Walmart and VMLY&R/Rockfish. He holds an MBA from the Sam M. Walton College of Business and has pursued post-graduate studies at Stanford, MIT, Emory University, Georgia Tech, and Cornell University. A dedicated mentor to AI and ML startups, Bill is also the bestselling author of Innovative Leadership (2024). A recognized pioneer in digital innovation, he founded the NWA Tech Summit and has been honored with accolades such as NWA Business Journal's 40 Under 40 and induction into the Arkansas 200 Executives Hall of Fame. At Walton College, he teaches AI applications at the MBA level and digital marketing in the Honors College, equipping students with practical, forward-thinking insights into emerging technologies.
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a 
