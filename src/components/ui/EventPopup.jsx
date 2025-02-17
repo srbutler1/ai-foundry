@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import { eventConfig } from '../../config/eventConfig';
 import { X } from 'lucide-react';
 
 const EventPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    // Show popup after a short delay
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 2000);
-
-    return () => clearTimeout(timer);
+    // Only show popup if event advertising is enabled
+    if (eventConfig.showEventAdvertising) {
+      const timer = setTimeout(() => {
+        setIsOpen(true);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
-  if (!isOpen) return null;
+  if (!isOpen || !eventConfig.showEventAdvertising) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-black/50 backdrop-blur-sm">
@@ -35,28 +37,28 @@ const EventPopup = () => {
             {/* Left side: Event Information */}
             <div className="flex-1">
             <h2 className="text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800">
-              Join Us for Our First Event!
+              Join Us for Our Next Event!
             </h2>
             
             <h3 className="text-xl text-red-500 mb-4">
-              Is DeepSeek the Next Big Thing?
+              {eventConfig.currentEvent.title}
             </h3>
             
             <p className="text-zinc-300 mb-4">
-              We're excited to announce our inaugural event at the Arkansas AI Foundry! Join us for an introduction to the foundry and an exploration of DeepSeek's potential in the AI landscape.
+              {eventConfig.currentEvent.description}
             </p>
             
             <div className="bg-black/40 border border-red-900/50 p-4 rounded-lg mb-6">
               <p className="text-zinc-300">
-                <strong>Date:</strong> February 13th<br />
-                <strong>Location:</strong> Reynolds Center - 120, 145 N Buchanan Ave Fayetteville, AR 72701<br />
-                <strong>Time:</strong> 6 PM
+                <strong>Date:</strong> {eventConfig.currentEvent.date}<br />
+                <strong>Location:</strong> {eventConfig.currentEvent.location}<br />
+                <strong>Time:</strong> {eventConfig.currentEvent.time}
               </p>
             </div>
 
             <div className="space-y-4">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSekIZCNIuUeLjcsTo_zOJBj3Yd0a8ciuLTX_akmv1rlxD3tkg/viewform?usp=dialog"
+                href={eventConfig.currentEvent.registrationLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
@@ -70,7 +72,7 @@ const EventPopup = () => {
               </a>
               
               <a
-                href="https://groupme.com/join_group/105347053/9oA8jhjn"
+                href={eventConfig.currentEvent.groupMeLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
@@ -88,7 +90,7 @@ const EventPopup = () => {
             {/* Right side: Flyer Image */}
             <div className="flex-1">
               <img 
-                src="/images/deepseek-event-flyer.png" 
+                src={eventConfig.currentEvent.flyerImage}
                 alt="DeepSeek Event Flyer" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />

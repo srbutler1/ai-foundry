@@ -1,4 +1,5 @@
 import React from 'react';
+import { eventConfig } from '../config/eventConfig';
 import { Brain, Users, BookOpen, MessageCircle, ChevronRight, Trophy, Briefcase, Code } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import Logo from '../components/ui/logo';
@@ -131,24 +132,28 @@ const HomePage = () => {
             Upcoming Events
           </h2>
           <div className="space-y-6">
-            <div className="flex flex-col md:flex-row md:items-center gap-6 p-4 bg-black/30 rounded-lg border border-red-900/30">
-              <div className="flex-shrink-0 text-center md:text-left">
-                <div className="text-red-500 font-bold text-xl mb-1">FEB 13</div>
-                <div className="text-zinc-300">Thursday</div>
-                <div className="text-zinc-300 font-semibold mt-2">6:00 PM</div>
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-xl text-zinc-300 font-bold mb-2">Is DeepSeek the Next Big Thing?</h3>
-                <div className="flex items-center text-zinc-400 mb-2">
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  Reynolds Center - Room 120 (145 N Buchanan Ave Fayetteville, AR 72701)
+            {eventConfig.showEventAdvertising ? (
+              <div className="flex flex-col md:flex-row md:items-center gap-6 p-4 bg-black/30 rounded-lg border border-red-900/30">
+                <div className="flex-shrink-0 text-center md:text-left">
+                  <div className="text-red-500 font-bold text-xl mb-1">{eventConfig.currentEvent.date}</div>
+                  <div className="text-zinc-300">{eventConfig.currentEvent.dayOfWeek}</div>
+                  <div className="text-zinc-300 font-semibold mt-2">{eventConfig.currentEvent.time}</div>
                 </div>
-                <p className="text-zinc-400">Join us for an introduction to the foundry and explore the potential of DeepSeek.</p>
+                <div className="flex-grow">
+                  <h3 className="text-xl text-zinc-300 font-bold mb-2">{eventConfig.currentEvent.title}</h3>
+                  <div className="flex items-center text-zinc-400 mb-2">
+                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    {eventConfig.currentEvent.location}
+                  </div>
+                  <p className="text-zinc-400">{eventConfig.currentEvent.description}</p>
+                </div>
               </div>
-            </div>
+            ) : (
+              <p className="text-zinc-400 text-center py-4">Stay tuned for upcoming events!</p>
+            )}
           </div>
         </div>
       </div>
