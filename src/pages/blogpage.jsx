@@ -23,33 +23,7 @@ const Modal = ({ isOpen, onClose, children }) => {
   );
 };
 
-const EventBanner = () => (
-  <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-4 mt-4">
-    <p className="text-red-400 text-sm font-medium">
-      🎉 Join us at our first in-person event to learn more about DeepSeek and the future of AI! Click the article to learn more!
-    </p>
-  </div>
-);
-
-const EventModal = ({ onClose }) => (
-  <div className="text-center">
-    <h3 className="text-2xl font-bold text-red-500 mb-4">Join Our First In-Person Event!</h3>
-    <p className="text-zinc-200 mb-6">
-      Get an exclusive deep dive into DeepSeek's groundbreaking developments and network with AI enthusiasts at our first event.
-    </p>
-    <div className="space-y-4">
-      <div className="bg-black/40 rounded p-4">
-        <h4 className="text-red-400 font-medium mb-2">Event Details</h4>
-        <p className="text-zinc-300">Date: 2/13/2025</p>
-        <p className="text-zinc-300">Time: 6:00pm - 7:00pm</p>
-        <p className="text-zinc-300">Location: Reyonlds Center Auditorium Room 120, 145 N Buchanan Ave Fayetteville, AR 72701</p>
-      </div>
-    </div>
-  </div>
-);
-
-const BlogPost = ({ id, title, author, date, content, tags, isExpanded, onClick }) => {
-  const [showModal, setShowModal] = useState(false);
+const BlogPost = ({ id, title, author, date, content, tags, isExpanded, onClick, className }) => {
   
   // Get preview content - first non-header paragraph
   const getPreviewContent = (markdown) => {
@@ -62,16 +36,13 @@ const BlogPost = ({ id, title, author, date, content, tags, isExpanded, onClick 
   const previewContent = getPreviewContent(content);
 
   const handleClick = () => {
-    if (!isExpanded && id === 3) { // Show modal only for DeepSeek article
-      setShowModal(true);
-    }
     onClick(id);
   };
   
   return (
     <>
       <div 
-        className={`bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300 cursor-pointer ${isExpanded ? 'md:col-span-2' : ''}`}
+        className={`bg-black/40 border border-red-900/50 backdrop-blur-md rounded-lg overflow-hidden hover:border-red-500/50 transition-all duration-300 cursor-pointer ${isExpanded ? 'md:col-span-2' : ''} ${className || ''}`}
         onClick={handleClick}
       >
         <div className="p-6">
@@ -129,7 +100,6 @@ const BlogPost = ({ id, title, author, date, content, tags, isExpanded, onClick 
                 >
                   {previewContent}
                 </ReactMarkdown>
-                {id === 3 && <EventBanner />} {/* Show banner only for DeepSeek article */}
               </>
             )}
           </div>
@@ -150,9 +120,6 @@ const BlogPost = ({ id, title, author, date, content, tags, isExpanded, onClick 
           </div>
         </div>
       </div>
-      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
-        <EventModal onClose={() => setShowModal(false)} />
-      </Modal>
     </>
   );
 };
@@ -204,12 +171,13 @@ const BlogPage = () => {
           )}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {filteredPosts.map((post) => (
+            {filteredPosts.map((post, index) => (
               <BlogPost 
                 key={post.id} 
                 {...post} 
                 isExpanded={expandedPostId === post.id}
                 onClick={(id) => setExpandedPostId(expandedPostId === id ? null : id)}
+                className={index === 0 ? "md:col-span-2" : ""}
               />
             ))}
           </div>

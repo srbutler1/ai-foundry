@@ -1,4 +1,47 @@
 export const blogPosts = [
+  
+  {
+    id: 4,
+    title: "AI in Higher Ed",
+    author: "Sam Butler",
+    date: "2025-02-22",
+    content: `# Embracing AI in Education: Shaping the Future of the University
+
+![AI in Higher Ed](/images/AI_HigherEd.png)
+
+It has become glaringly evident that AI will become prevalent in all aspects of private industry. 83% of companies consider AI a top priority¹, and 77% are either using or exploring artificial intelligence². AI is projected to contribute $15.7 trillion to the economy, with some projections being much higher². AI is no longer a futuristic concept. It is here to stay, and the revolution is happening with or without us. The question is: do you want to build the future or watch from the sidelines?
+
+The pace of change is difficult for large institutions to keep up with. For instance, my school, The University of Arkansas, has yet to reveal their comprehensive AI strategy. Thankfully, the university faculty is home to many progressive thinkers who deeply value the University of Arkansas’s commitment to academic excellence and student success. It is encouraging to see that leadership recognizes this technology’s importance for the university’s future success and growth.
+
+I fully understand the concerns. Plagiarism, overreliance, and ethical concerns should indeed be a consideration. However, as private industry charges ahead, many institutions remain hesitant. The issues surrounding AI are not insurmountable barriers; they are standard speed bumps in our technological age that can be managed through proactive, innovative policies and ongoing training –steps universities are already well-positioned to do. By postponing tangible action, universities risk leaving students unprepared for an evolving job market. Reinforcing institutional inertia will leave universities far behind the industries their students typically pursue.
+
+At many top institutions, AI is already transforming how research, learning, and progress occur. For example, Cancer research, climate modelling, genomics, and much more are being rapidly sped up with AI augmenting significant portions of work. Take Jackson Butler (my brother), for instance, a Goldwater Scholar and PhD candidate in Condensed Matter Physics at MIT who has seen firsthand how LLMs can accelerate research. Much of the experimental physics he works on revolves around problem-solving: building theoretical models, designing electronic filters to keep samples at ultra-low temperatures, and writing or debugging code for data collection. LLMs and agentic-frameworks have assisted with these tasks.
+
+“As someone who isn’t an especially strong programmer,” he says, “I’ve been able to leverage LLMs to write new programs and edit existing codebases. This frees me up to spend more time in the lab, analyzing data, and tackling bigger-picture questions.”
+
+The use goes beyond coding as well. While designing an ultra-low-noise amplifier for improved signal detection (don’t worry I don’t know what this means either), they fed diagrams and papers into an LLM. The model immediately broke down how the circuit worked and suggested modifications tailored to their use case, saving them significant time researching the specific issue at hand.
+
+While these tools are not yet capable of “analyzing data or coming up with complex theories,” he says, “they are already capable of serving as a competent research assistant, allowing me to accomplish many daily tasks with much greater efficiency.” At scale, with researchers using these assistants in similar ways, the progress that our universities have historically produced can be vastly expedited.
+
+I share the same sentiments while working on my thesis for housing affordability. I set up an agentic system that would pull relevant home mortgage data from an API. Without it, I would have to manually pull all the relevant files, sorting through the many filters they have until I find what I am looking for, saving me a lot of time so I can work on the more fun critical aspects of my thesis.
+
+Similar progress is being used to transform the classroom experience for students. Personalized learning that is tailored to the specific user’s progress is being deployed around the world. AI graders, slide creators, and transcribers are being used to augment the work of professors and instructors so they can focus on the aspects of their work that will always require the human touch. These are the aspects that I believe are the most rewarding parts of their job.
+
+AI will significantly enhance the equity of education around the world as well. With advanced knowledge at the fingertips of students worldwide, those who don’t have the opportunity or privilege to attend college or get extra tutoring can learn through the vast amounts of available tools.
+
+As you can see, AI is becoming woven into the fabric of how we learn, teach, and innovate as a society. AI can free us from tedious tasks and accelerate breakthroughs across fields. While concerns are valid, they should not be deal-breakers. Our mission at the AI Foundry is to accelerate this progress within the university and in the community. We can empower students to employ these tools responsibly and collaboratively to create real-world impact. Let’s ensure we are leading the charge rather than catching up.
+
+Written By Sam Butler
+President & Founder of Arkansas AI Foundry
+
+[1]: Fatemi, Falon. (June 6 2019). 3 Ways Artificial Intelligence Is Transforming Business Operations www.forbes.com/sites/falonfatemi/2019/05/29/3-ways-artificial-intelligence-is-transforming-business-operations/.
+
+[2]: Webster, Mark. (15 Nov. 2024). The Present and Future of AI [2025 Stats] www.authorityhacker.com/ai-statistics/.
+
+*The AI Foundry*`,
+    tags: ["AI", "Education", "Technology", "Future of Education", "AI Acceleration"]
+  },
+  
   {
     id: 3,
     title: "DeepSeek's R1: Redefining AI Efficiency and Cost-Effectiveness",
@@ -65,7 +108,7 @@ The success of the R1 model serves as a powerful reminder that sometimes the mos
     id: 1,
     title: "Getting Started with AI in Business",
     author: "Sam Butler",
-    date: "2024-01-19",
+    date: "2025-01-19",
     content: `# Getting Started with AI in Business
 
 Artificial Intelligence is revolutionizing the way we work and live. At the Arkansas AI Foundry, we're at the forefront of this transformation, 
@@ -122,7 +165,7 @@ AI for sustainable growth and competitive advantage.`,
     id: 2,
     title: "Embracing the Next Industrial Revolution: Why the AI Foundry?",
     author: "Sam Butler",
-    date: "2024-01-22",
+    date: "2025-01-22",
     content: `# Embracing the Next Industrial Revolution: Why the AI Foundry (An Open Letter to College Students)
 
 As I prepare for life after college, I think about the rapidly evolving world. The current technological revolution, referred to as "Industry 4.0", is a paradigm shift in how professionals operate. One of the most striking parallels is the First Industrial Revolution. If you've studied history, you know that our labor force in the United States shifted from 90% working on farms to 40% in less than 100 years. Now, less than 1.5% of our population is employed in direct on-farm labor.
@@ -144,4 +187,5 @@ The wall starts to crumble until it falls all at once. At the AI Foundry, we wan
 *Founder, The AI Foundry*`,
     tags: ["AI", "Education", "Technology", "Future of Work", "Industrial Revolution"]
   }
+
 ];
