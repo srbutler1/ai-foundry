@@ -184,7 +184,7 @@ const HomePage = () => {
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-red-500">Sam Butler</h4>
                   <p className="text-zinc-400 mb-4">President & Founder</p>
-                  <p className="text-zinc-300 mb-4">Financial Anlalytics and Economics | Senior</p>
+                  <p className="text-zinc-300 mb-4">Financial Analytics and Economics | Senior</p>
                   <p className="text-zinc-300">
                   Sam has a strong interest in AI, its applications, and transformative potential. He has been involved in various groups on and off campus and is currently working on an honors thesis studying afffordability for first-time homebuyers. Outside of his academic and professional pursuits, Sam is an avid sports fan who enjoys staying active and connected to his community.
                   </p>
