@@ -1,14 +1,14 @@
 export const eventConfig = {
-  showEventAdvertising: false, // Set to true to enable event advertising
+  showEventAdvertising: true, // Set to true to enable event advertising
   currentEvent: {
-    title: "Is DeepSeek the Next Big Thing?",
-    date: "FEB 13",
-    dayOfWeek: "Thursday",
-    time: "6:00 PM",
-    location: "Reynolds Center - Room 120 (145 N Buchanan Ave Fayetteville, AR 72701)",
-    description: "Join us for an introduction to the foundry and explore the potential of DeepSeek.",
+    title: "Microsoft and AI: How Leaders in Tech are Actively Reshaping the AI Landscape",
+    date: "MAR 5",
+    dayOfWeek: "Wednesday",
+    time: "6:00 PM – 7:00 PM",
+    location: "Willard J. Walker Hall (WJWH) | University of Arkansas Room 203 191 N Harmon Ave, Fayetteville, AR 72701",
+    description: "Join us for an insightful session with Jarrod Ramsey from Microsoft as he discusses how leaders in tech are actively reshaping the AI landscape.",
     registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSekIZCNIuUeLjcsTo_zOJBj3Yd0a8ciuLTX_akmv1rlxD3tkg/viewform?usp=dialog",
     groupMeLink: "https://groupme.com/join_group/105347053/9oA8jhjn",
-    flyerImage: "/images/deepseek-event-flyer.png"
+    flyerImage: "/images/Microsoft_Event.png"
   }
 };
