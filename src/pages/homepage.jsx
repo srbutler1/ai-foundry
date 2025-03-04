@@ -476,89 +476,62 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* Company Logo Sections */}
+      {/* Our Experience Section */}
       <div className="container mx-auto px-4 py-16">
         <div className="bg-gradient-to-b from-black/60 to-black/40 border border-red-900/50 backdrop-blur-md p-8 rounded-lg">
-          {/* Where Members Work Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800 text-center">
-              Where Our Members Work
-            </h2>
-            <div className="flex justify-center gap-10 flex-wrap">
-              {/* Mastercard Logo */}
-              <a 
-                href="https://www.mastercard.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
-              >
-                <img 
-                  src="/images/logos/mastercardlogo.png" 
-                  alt="Mastercard" 
-                  className="max-h-16 max-w-full object-contain"
-                />
-              </a>
-              
-              {/* EY Logo */}
-              <a 
-                href="https://www.ey.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
-              >
-                <img 
-                  src="/images/logos/eylogo.png" 
-                  alt="EY" 
-                  className="max-h-16 max-w-full object-contain"
-                />
-              </a>
+          <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800 text-center">
+            Our Experience
+          </h2>
+          <div className="flex justify-center gap-10 flex-wrap">
+            {/* Mastercard Logo */}
+            <a 
+              href="https://www.mastercard.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
+            >
+              <img 
+                src="/images/logos/mastercardlogo.png" 
+                alt="Mastercard" 
+                className="max-h-16 max-w-full object-contain"
+              />
+            </a>
+            
+            {/* EY Logo */}
+            <a 
+              href="https://www.ey.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
+            >
+              <img 
+                src="/images/logos/eylogo.png" 
+                alt="EY" 
+                className="max-h-16 max-w-full object-contain"
+              />
+            </a>
+            
+            {/* Coming Soon Placeholder */}
+            <div className="bg-black/50 border border-red-900/30 backdrop-blur-md p-4 rounded-lg flex flex-col items-center justify-center w-56 h-28">
+              <div className="text-red-500 font-semibold mb-1">More Partners</div>
+              <div className="text-zinc-400 text-sm">Coming Soon</div>
             </div>
-          </div>
-          
-          {/* Partner Companies Section */}
-          <div>
-            <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800 text-center">
-              Our Partners
-            </h2>
-            <div className="flex justify-center gap-10 flex-wrap">
-              {/* Walmart Logo - Disabled/Coming Soon */}
-              {/* 
-              <a 
-                href="https://www.walmart.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
-              >
+            
+            {/* Walton Logo */}
+            <a 
+              href="https://walton.uark.edu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
+            >
+              <div className="bg-white rounded-lg p-2 flex items-center justify-center w-36 h-20">
                 <img 
-                  src="/images/logos/walmartlogo.png" 
-                  alt="Walmart" 
+                  src="/images/logos/UA_Logo.png" 
+                  alt="University of Arkansas Walton College" 
                   className="max-h-16 max-w-full object-contain"
                 />
-              </a>
-              */}
-              
-              {/* Coming Soon Placeholder */}
-              <div className="bg-black/50 border border-red-900/30 backdrop-blur-md p-4 rounded-lg flex flex-col items-center justify-center w-56 h-28">
-                <div className="text-red-500 font-semibold mb-1">More Partners</div>
-                <div className="text-zinc-400 text-sm">Coming Soon</div>
               </div>
-              
-              {/* Walton Logo */}
-              <a 
-                href="https://walton.uark.edu" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
-              >
-                <div className="bg-white rounded-lg p-2 flex items-center justify-center w-36 h-20">
-                  <img 
-                    src="/images/logos/UA_Logo.png" 
-                    alt="University of Arkansas Walton College" 
-                    className="max-h-16 max-w-full object-contain"
-                  />
-                </div>
-              </a>
-            </div>
+            </a>
           </div>
         </div>
       </div>
