@@ -5,6 +5,7 @@ import BlogPage from './pages/blogpage';
 import RootLayout from './components/layout/RootLayout';
 import SidebarLayout from './components/layout/sidebarlayout';
 import ConsultingPage from './pages/consultingpage';
+import MicrosoftEventVerification from './pages/verification/MicrosoftEventVerification';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/consulting" element={<ConsultingPage />} />
             </Route>
+            {/* Hidden verification page - not in sidebar layout */}
+            <Route path="/verification/microsoft-event-mar5" element={<MicrosoftEventVerification />} />
           </Route>
         </Routes>
       </div>

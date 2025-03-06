@@ -1,5 +1,5 @@
 export const eventConfig = {
-  showEventAdvertising: true, // Set to true to enable event advertising
+  showEventAdvertising: false, // Set to true to enable event advertising
   currentEvent: {
     title: "Microsoft and AI: How Leaders in Tech are Actively Reshaping the AI Landscape",
     date: "MAR 5",
