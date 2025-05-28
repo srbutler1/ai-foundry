@@ -101,7 +101,7 @@ const HomePage = () => {
               Provide guidance and support for every stage of your AI journey—from résumé reviews 
               and interview prep to pairing up with experienced peers and alumni. Develop a professional 
               network, explore internships or research opportunities, and take your first steps toward 
-              becoming a leading voice in the AI community.
+              becoming a leading voice in the AI community. 
             </p>  
           </div>
 
@@ -404,7 +404,7 @@ const HomePage = () => {
                   <p className="text-zinc-400 mb-2">Walton College</p>
                   <p className="text-zinc-400 mb-4">Economics Lecturer</p>
                   <p className="text-zinc-300">
-                  Michael serves as Founder and Portfolio Manager of Indra Capital Partners, a quantitatively driven asset manager.  Previously, he was co-founder and Chief Investment Officer for Green Street Energy, an owner operator of commercial-scale solar energy assets.  Before that, he was with Goldman Sachs in New York in the Structured Products division, with oversight for various mortgage trading businesses.  He began with GS in 2000 after graduate school at the University of Chicago, from which he received a Master’s Degree in Financial Mathematics.  He holds an undergraduate degree in Economics from the University of Arkansas.
+                  Michael serves as Founder and Portfolio Manager of Indra Capital Partners, a quantitatively driven asset manager.  Previously, he was co-founder and Chief Investment Officer for Green Street Energy, an owner operator of commercial-scale solar energy assets.  Before that, he was with Goldman Sachs in New York in the Structured Products division, with oversight for various mortgage trading businesses.  He began with GS in 2000 after graduate school at the University of Chicago, from which he received a Master's Degree in Financial Mathematics.  He holds an undergraduate degree in Economics from the University of Arkansas.
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a 
@@ -482,18 +482,18 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-red-800 text-center">
             Our Experience
           </h2>
-          <div className="flex justify-center gap-10 flex-wrap">
+          <div className="flex justify-center gap-6 flex-wrap">
             {/* Mastercard Logo */}
             <a 
               href="https://www.mastercard.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-48 h-24 transform hover:scale-105"
             >
               <img 
                 src="/images/logos/mastercardlogo.png" 
                 alt="Mastercard" 
-                className="max-h-16 max-w-full object-contain"
+                className="max-h-12 max-w-full object-contain"
               />
             </a>
             
@@ -502,19 +502,33 @@ const HomePage = () => {
               href="https://www.ey.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-48 h-24 transform hover:scale-105"
             >
               <img 
                 src="/images/logos/eylogo.png" 
                 alt="EY" 
-                className="max-h-16 max-w-full object-contain"
+                className="max-h-12 max-w-full object-contain"
+              />
+            </a>
+            
+            {/* General Mills Logo */}
+            <a 
+              href="https://www.generalmills.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-48 h-24 transform hover:scale-105"
+            >
+              <img 
+                src="/images/logos/digital-and-technology.png" 
+                alt="General Mills" 
+                className="max-h-12 max-w-full object-contain"
               />
             </a>
             
             {/* Coming Soon Placeholder */}
-            <div className="bg-black/50 border border-red-900/30 backdrop-blur-md p-4 rounded-lg flex flex-col items-center justify-center w-56 h-28">
-              <div className="text-red-500 font-semibold mb-1">More Partners</div>
-              <div className="text-zinc-400 text-sm">Coming Soon</div>
+            <div className="bg-black/50 border border-red-900/30 backdrop-blur-md p-4 rounded-lg flex flex-col items-center justify-center w-48 h-24">
+              <div className="text-red-500 font-semibold mb-1 text-sm">More Partners</div>
+              <div className="text-zinc-400 text-xs">Coming Soon</div>
             </div>
             
             {/* Walton Logo */}
@@ -522,13 +536,13 @@ const HomePage = () => {
               href="https://walton.uark.edu" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-56 h-28 transform hover:scale-105"
+              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-48 h-24 transform hover:scale-105"
             >
-              <div className="bg-white rounded-lg p-2 flex items-center justify-center w-36 h-20">
+              <div className="bg-white rounded-lg p-2 flex items-center justify-center w-32 h-16">
                 <img 
                   src="/images/logos/UA_Logo.png" 
                   alt="University of Arkansas Walton College" 
-                  className="max-h-16 max-w-full object-contain"
+                  className="max-h-12 max-w-full object-contain"
                 />
               </div>
             </a>
