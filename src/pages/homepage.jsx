@@ -497,20 +497,6 @@ const HomePage = () => {
               />
             </a>
             
-            {/* EY Logo */}
-            <a 
-              href="https://www.ey.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-black/50 border border-red-900/50 backdrop-blur-md hover:border-red-500/70 hover:shadow-lg hover:shadow-red-900/20 transition-all duration-300 p-4 rounded-lg flex items-center justify-center w-48 h-24 transform hover:scale-105"
-            >
-              <img 
-                src="/images/logos/eylogo.png" 
-                alt="EY" 
-                className="max-h-12 max-w-full object-contain"
-              />
-            </a>
-            
             {/* General Mills Logo */}
             <a 
               href="https://www.generalmills.com" 
