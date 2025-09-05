@@ -6,8 +6,17 @@ import RootLayout from './components/layout/RootLayout';
 import SidebarLayout from './components/layout/sidebarlayout';
 import ConsultingPage from './pages/consultingpage';
 import MicrosoftEventVerification from './pages/verification/MicrosoftEventVerification';
+import MaintenancePage from './components/MaintenancePage';
+
+// Toggle this to enable/disable maintenance mode
+const MAINTENANCE_MODE = true;
 
 function App() {
+  // If maintenance mode is enabled, show maintenance page for all routes
+  if (MAINTENANCE_MODE) {
+    return <MaintenancePage />;
+  }
+
   return (
     <>
       <Helmet>

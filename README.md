@@ -119,3 +119,52 @@ git checkout -b feature/your-feature-name
 
 ## Deployment
 at the moment, Sam pushes changes live regularly
+
+## Maintenance Mode
+
+The website includes a maintenance mode feature that allows you to temporarily show a "Under Maintenance" page to all visitors while keeping the rest of the site hidden.
+
+### Enabling Maintenance Mode
+
+1. **Enable the maintenance page**:
+   - Open `src/App.jsx`
+   - Change line 12 from `const MAINTENANCE_MODE = false;` to `const MAINTENANCE_MODE = true;`
+
+2. **Update robots.txt** (if not already done):
+   - Open `public/robots.txt`
+   - Change `Allow: /` to `Disallow: /`
+   - Comment out the sitemap line
+
+3. **Deploy the changes**:
+   ```bash
+   npm run deploy
+   ```
+
+### Disabling Maintenance Mode
+
+1. **Disable the maintenance page**:
+   - Open `src/App.jsx` 
+   - Change line 12 from `const MAINTENANCE_MODE = true;` to `const MAINTENANCE_MODE = false;`
+
+2. **Restore normal robots.txt**:
+   - Open `public/robots.txt`
+   - Change `Disallow: /` to `Allow: /`
+   - Uncomment the sitemap line:
+     ```
+     Sitemap: https://arkansasaifoundry.org/sitemap.xml
+     ```
+
+3. **Deploy the changes**:
+   ```bash
+   npm run deploy
+   ```
+
+### What Maintenance Mode Does
+
+- Shows a professional "Under Maintenance" page to all visitors
+- Hides all regular pages (homepage, blog, consulting, verification)
+- Includes appropriate meta tags to prevent search engine indexing
+- Blocks search engine crawlers via robots.txt
+- Displays contact information for questions
+
+The maintenance page is located at `src/components/MaintenancePage.jsx` and can be customized as needed.

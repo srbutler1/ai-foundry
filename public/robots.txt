@@ -1,5 +1,7 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-# Sitemap location
-Sitemap: https://arkansasaifoundry.org/sitemap.xml
+# Site is currently under maintenance
+# Uncomment the lines below and comment out "Disallow: /" when site is back online:
+# Allow: /
+# Sitemap: https://arkansasaifoundry.org/sitemap.xml
