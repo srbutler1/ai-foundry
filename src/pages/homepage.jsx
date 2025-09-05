@@ -62,7 +62,7 @@ const HomePage = () => {
             Where Business Meets AI Innovation
           </h2>
           <p className="text-zinc-300 text-lg backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-red-900/20">
-          The Arkansas AI Foundry is a nonprofit organization, dedicated to bridging the technological divide by uniting forward-thinking students from diverse disciplines to push the boundaries of artificial intelligence. Through consulting services, strong industry partnerships, and a hands-on, collaborative learning environment, we empower individuals and organizations alike to harness AI for real-world impact. Join us in forging an inclusive and innovative future.
+          The Arkansas AI Foundry is dedicated to bridging the technological divide by uniting forward-thinking students from diverse disciplines to push the boundaries of artificial intelligence. Through consulting services, strong industry partnerships, and a hands-on, collaborative learning environment, we empower individuals and organizations alike to harness AI for real-world impact. Join us in forging an inclusive and innovative future.
           </p>
         </div>
       </div>
@@ -90,7 +90,7 @@ const HomePage = () => {
             <Briefcase className="h-6 w-6 text-red-500 mb-2" />
             <h3 className="text-xl font-bold text-red-500 mb-2">Community Consulting</h3>
             <p className="text-zinc-400">
-              Partner with local nonprofits, startups, and small businesses to develop AI-driven solutions that elevate our community. Gain real-world experience, build your portfolio, and make a meaningful impact where it matters. 
+              Partner with local organizations, startups, and small businesses to develop AI-driven solutions that elevate our community. Gain real-world experience, build your portfolio, and make a meaningful impact where it matters. 
             </p>
           </div>
 
@@ -293,7 +293,7 @@ const HomePage = () => {
                   <p className="text-zinc-400 mb-4">Secretary</p>
                   <p className="text-zinc-300 mb-4">Data Science | Junior</p>
                   <p className="text-zinc-300">
-                    Connor is inspired by the ability of AI to transform industries and how it is currently redefining the future. As a Data Science major specializing in business analytics, he loves tackling complex challenges and developing creative solutions. His experience includes developing an app for a nonprofit and working with leading retailers to optimize their sales strategies. Outside of his studies, Connor enjoys playing golf and cooking good food.
+                    Connor is inspired by the ability of AI to transform industries and how it is currently redefining the future. As a Data Science major specializing in business analytics, he loves tackling complex challenges and developing creative solutions. His experience includes developing applications and working with leading retailers to optimize their sales strategies. Outside of his studies, Connor enjoys playing golf and cooking good food.
                   </p>
                   <div className="mt-4 flex space-x-4">
                     <a href="https://www.linkedin.com/in/connor-durbin-52b975252/" className="text-red-400 hover:text-red-300">LinkedIn</a>
